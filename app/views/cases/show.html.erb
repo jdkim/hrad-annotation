@@ -1,0 +1,227 @@
+<div class="container mx-auto px-4 py-8">
+  <!-- Header -->
+  <div class="mb-6 flex items-center justify-between">
+    <div>
+      <h1 class="text-3xl font-bold text-gray-900">Case <%= @case.case_id %></h1>
+      <p class="text-gray-500 mt-1">
+        <%= link_to "&larr; Back to cases".html_safe, cases_path, class: "text-blue-600 hover:text-blue-800" %>
+      </p>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <!-- Left Column: Images -->
+    <div class="space-y-4">
+      <h2 class="text-xl font-semibold text-gray-900">Images</h2>
+      <div class="bg-white shadow rounded-lg p-4">
+        <% if @case.image_paths.present? %>
+          <div class="space-y-4">
+            <% @case.image_paths.each_with_index do |image_path, index| %>
+              <div class="border rounded-lg overflow-hidden">
+                <div class="bg-gray-100 px-3 py-2 text-sm font-medium text-gray-700">
+                  <%= image_path %>
+                </div>
+                <img src="<%= case_image_path(@case.case_id, image_path) %>"
+                     alt="<%= image_path %>"
+                     class="w-1/2 h-auto cursor-pointer hover:opacity-90"
+                     onclick="openImageModal(this.src, '<%= image_path %>')">
+              </div>
+            <% end %>
+          </div>
+        <% else %>
+          <p class="text-gray-500">No images available</p>
+        <% end %>
+      </div>
+    </div>
+
+    <!-- Right Column: Report & Causal Exploration -->
+    <div class="space-y-6">
+      <!-- Report Section -->
+      <div>
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">Radiology Report</h2>
+        <div class="bg-white shadow rounded-lg p-4">
+          <% if @case.report_text.present? %>
+            <pre class="whitespace-pre-wrap text-sm text-gray-800 font-mono"><%= @case.report_text %></pre>
+          <% else %>
+            <p class="text-gray-500">No report available</p>
+          <% end %>
+        </div>
+      </div>
+
+      <!-- Causal Exploration Section -->
+      <div>
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">Causal Exploration</h2>
+        <div class="bg-white shadow rounded-lg p-4">
+          <% if @case.causal_exploration_text.present? %>
+            <p class="text-sm text-gray-800"><%= @case.causal_exploration_text %></p>
+          <% else %>
+            <p class="text-gray-500">No causal exploration available</p>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABCDE Checklist Section -->
+  <div class="mt-8">
+    <details class="bg-white shadow rounded-lg overflow-hidden">
+      <summary class="text-xl font-semibold text-gray-900 p-4 cursor-pointer hover:bg-gray-50 flex items-center justify-between">
+        <span>ABCDE Checklist</span>
+        <svg class="w-5 h-5 text-gray-500 transform transition-transform details-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </summary>
+      <div class="p-4 border-t">
+        <% if @case.checklist_data.present? && @case.checklist_data.any? %>
+          <% checklist = @case.checklist_data.first %>
+
+          <!-- Summary Fields -->
+          <details open class="mb-4">
+            <summary class="text-lg font-medium text-gray-800 mb-3 cursor-pointer hover:text-gray-600">Summary</summary>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm mt-3">
+              <div class="bg-gray-50 p-3 rounded">
+                <span class="font-medium text-gray-700">Diagnosis (A1):</span>
+                <span class="text-gray-900 ml-1"><%= checklist["A1"] %></span>
+              </div>
+              <div class="bg-gray-50 p-3 rounded">
+                <span class="font-medium text-gray-700">Location (A2):</span>
+                <span class="text-gray-900 ml-1"><%= checklist["A2"] %></span>
+              </div>
+              <div class="bg-gray-50 p-3 rounded">
+                <span class="font-medium text-gray-700">Region (A3):</span>
+                <span class="text-gray-900 ml-1"><%= checklist["A3"] %></span>
+              </div>
+              <div class="bg-gray-50 p-3 rounded">
+                <span class="font-medium text-gray-700">Findings (A4):</span>
+                <span class="text-gray-900 ml-1"><%= checklist["A4"] %></span>
+              </div>
+            </div>
+          </details>
+
+          <!-- Detailed Checklist Questions -->
+          <details>
+            <summary class="text-lg font-medium text-gray-800 mb-3 cursor-pointer hover:text-gray-600">Detailed Checklist (View 1)</summary>
+            <div class="space-y-2 text-sm mt-3">
+              <%
+                # Get checklist questions (columns after A4, before they repeat)
+                skip_cols = ["Dir", "Report_name", "DICOM_name", "Case_ID", "A1", "A2", "A3", "A4"]
+                questions = checklist.keys.reject { |k| skip_cols.include?(k) }.first(28)
+              %>
+              <% questions.each do |question| %>
+                <% value = checklist[question] %>
+                <% next if value.nil? || value == "null" %>
+                <div class="flex items-start gap-2 py-1 border-b border-gray-100">
+                  <% if value.to_s == "1" %>
+                    <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-red-100 text-red-600 flex-shrink-0 mt-0.5">!</span>
+                  <% else %>
+                    <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-green-100 text-green-600 flex-shrink-0 mt-0.5">&#10003;</span>
+                  <% end %>
+                  <span class="text-gray-700"><%= question.split('.', 2).last %></span>
+                </div>
+              <% end %>
+            </div>
+          </details>
+        <% else %>
+          <p class="text-gray-500">No checklist data available</p>
+        <% end %>
+      </div>
+    </details>
+  </div>
+
+  <!-- SCE Section -->
+  <div class="mt-8">
+    <h2 class="text-xl font-semibold text-gray-900 mb-4">Structured Causal Explanations (SCE)</h2>
+
+    <%= turbo_frame_tag "sces" do %>
+      <!-- New SCE Form -->
+      <div class="bg-white shadow rounded-lg p-4 mb-4">
+        <h3 class="text-lg font-medium text-gray-900 mb-3">Add New SCE</h3>
+        <%= form_with model: [@case, @sce], url: case_sces_path(@case.case_id), class: "space-y-4" do |f| %>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <%= f.label :finding, class: "block text-sm font-medium text-gray-700" %>
+              <%= f.text_field :finding, class: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm", placeholder: "What was observed..." %>
+            </div>
+            <div>
+              <%= f.label :impression, class: "block text-sm font-medium text-gray-700" %>
+              <%= f.text_field :impression, class: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm", placeholder: "Clinical interpretation..." %>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="flex items-center">
+              <%= f.check_box :certainty, class: "h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500" %>
+              <%= f.label :certainty, "Certain", class: "ml-2 block text-sm text-gray-700" %>
+            </div>
+            <div class="flex-grow"></div>
+            <%= f.submit "Add SCE", class: "inline-flex justify-center rounded-md border border-transparent bg-blue-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 cursor-pointer" %>
+          </div>
+        <% end %>
+      </div>
+
+      <!-- Existing SCEs -->
+      <div class="bg-white shadow rounded-lg overflow-hidden">
+        <% if @sces.any? %>
+          <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Finding</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Impression</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Certainty</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Actions</th>
+              </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200">
+              <% @sces.each do |sce| %>
+                <%= turbo_frame_tag dom_id(sce) do %>
+                  <tr>
+                    <td class="px-6 py-4 text-sm text-gray-900"><%= sce.finding %></td>
+                    <td class="px-6 py-4 text-sm text-gray-900"><%= sce.impression %></td>
+                    <td class="px-6 py-4 text-sm">
+                      <% if sce.certainty %>
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Certain</span>
+                      <% else %>
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">Uncertain</span>
+                      <% end %>
+                    </td>
+                    <td class="px-6 py-4 text-sm">
+                      <%= link_to "Edit", edit_case_sce_path(@case.case_id, sce), data: { turbo_frame: "_top" }, class: "text-blue-600 hover:text-blue-900 mr-3" %>
+                      <%= button_to "Delete", case_sce_path(@case.case_id, sce), method: :delete, data: { turbo_confirm: "Are you sure?" }, class: "text-red-600 hover:text-red-900" %>
+                    </td>
+                  </tr>
+                <% end %>
+              <% end %>
+            </tbody>
+          </table>
+        <% else %>
+          <div class="p-6 text-center text-gray-500">
+            No SCEs have been added yet. Add the first one above!
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<!-- Image Modal -->
+<div id="imageModal" class="fixed inset-0 bg-black bg-opacity-75 hidden z-50 flex items-center justify-center p-4" onclick="closeImageModal()">
+  <div class="max-w-6xl max-h-full">
+    <img id="modalImage" src="" alt="" class="max-w-full max-h-[90vh] object-contain">
+    <p id="modalCaption" class="text-white text-center mt-2"></p>
+  </div>
+</div>
+
+<script>
+  function openImageModal(src, caption) {
+    document.getElementById('modalImage').src = src;
+    document.getElementById('modalCaption').textContent = caption;
+    document.getElementById('imageModal').classList.remove('hidden');
+  }
+
+  function closeImageModal() {
+    document.getElementById('imageModal').classList.add('hidden');
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeImageModal();
+  });
+</script>

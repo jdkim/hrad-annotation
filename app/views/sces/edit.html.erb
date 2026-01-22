@@ -1,0 +1,42 @@
+<div class="container mx-auto px-4 py-8">
+  <div class="max-w-2xl mx-auto">
+    <h1 class="text-2xl font-bold text-gray-900 mb-6">Edit SCE</h1>
+    <p class="text-gray-500 mb-4">
+      <%= link_to "&larr; Back to case".html_safe, case_path(@case.case_id), class: "text-blue-600 hover:text-blue-800" %>
+    </p>
+
+    <div class="bg-white shadow rounded-lg p-6">
+      <%= form_with model: [@case, @sce], url: case_sce_path(@case.case_id, @sce), method: :patch, class: "space-y-4" do |f| %>
+        <% if @sce.errors.any? %>
+          <div class="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded">
+            <ul class="list-disc list-inside">
+              <% @sce.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+              <% end %>
+            </ul>
+          </div>
+        <% end %>
+
+        <div>
+          <%= f.label :finding, class: "block text-sm font-medium text-gray-700" %>
+          <%= f.text_field :finding, class: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" %>
+        </div>
+
+        <div>
+          <%= f.label :impression, class: "block text-sm font-medium text-gray-700" %>
+          <%= f.text_field :impression, class: "mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm" %>
+        </div>
+
+        <div class="flex items-center">
+          <%= f.check_box :certainty, class: "h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500" %>
+          <%= f.label :certainty, "Certain", class: "ml-2 block text-sm text-gray-700" %>
+        </div>
+
+        <div class="flex gap-4 pt-4">
+          <%= f.submit "Update SCE", class: "inline-flex justify-center rounded-md border border-transparent bg-blue-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 cursor-pointer" %>
+          <%= link_to "Cancel", case_path(@case.case_id), class: "inline-flex justify-center rounded-md border border-gray-300 bg-white py-2 px-4 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
