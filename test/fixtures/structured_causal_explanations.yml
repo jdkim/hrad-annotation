@@ -1,15 +1,20 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
+initial_for_case_one:
   medical_case: one
-  user: one
-  finding: MyString
-  impression: MyString
+  user: initial
+  finding: finding1
+  impression: impression1
   certainty: false
 
-two:
+initial_for_case_two:
   medical_case: two
-  user: two
-  finding: MyString
-  impression: MyString
+  user: initial
+  finding: finding1
+  impression: impression1
   certainty: false
+
+annotator_for_case_one:
+  medical_case: one
+  user: annotator
+  finding: my_finding
+  impression: my_impression
+  certainty: true

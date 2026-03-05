@@ -1,11 +1,14 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+annotator:
+  email: annotator@example.com
+  name: Test Annotator
+  google_uid: google_123
 
-one:
-  email: MyString
-  name: MyString
-  google_uid: MyString
+annotator_two:
+  email: annotator2@example.com
+  name: Test Annotator Two
+  google_uid: google_456
 
-two:
-  email: MyString
-  name: MyString
-  google_uid: MyString
+initial:
+  email: initial@system
+  name: Initial Annotator
+  google_uid: initial_annotator

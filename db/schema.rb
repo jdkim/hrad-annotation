@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2026_01_21_235738) do
+ActiveRecord::Schema[8.0].define(version: 2026_03_05_163518) do
+  create_table "annotation_statuses", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.integer "medical_case_id", null: false
+    t.boolean "done", default: false, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["medical_case_id"], name: "index_annotation_statuses_on_medical_case_id"
+    t.index ["user_id", "medical_case_id"], name: "index_annotation_statuses_on_user_id_and_medical_case_id", unique: true
+    t.index ["user_id"], name: "index_annotation_statuses_on_user_id"
+  end
+
   create_table "medical_cases", force: :cascade do |t|
     t.string "case_id"
     t.text "report_text"
@@ -44,6 +55,8 @@ ActiveRecord::Schema[8.0].define(version: 2026_01_21_235738) do
     t.index ["google_uid"], name: "index_users_on_google_uid", unique: true
   end
 
+  add_foreign_key "annotation_statuses", "medical_cases"
+  add_foreign_key "annotation_statuses", "users"
   add_foreign_key "structured_causal_explanations", "medical_cases"
   add_foreign_key "structured_causal_explanations", "users"
 end

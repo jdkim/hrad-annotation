@@ -1,0 +1,4 @@
+annotator_case_one:
+  user: annotator
+  medical_case: one
+  done: false

@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   # Cases and SCE routes
   resources :cases, only: [ :index, :show ], param: :case_id do
     resources :sces, only: [ :create, :edit, :update, :destroy ]
+    patch :toggle_done, on: :member
   end
 
   # Image serving route
