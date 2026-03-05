@@ -50,6 +50,9 @@ gem "omniauth-rails_csrf_protection"
 # CSV parsing (required for Ruby 3.4+)
 gem "csv"
 
+# XLSX parsing for ABCDE checklist files
+gem "roo"
+
 # Environment variables
 gem "dotenv-rails"
 

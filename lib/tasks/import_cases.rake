@@ -24,11 +24,15 @@ namespace :cases do
       causal_path = File.join(case_folder, "causal exploration.txt")
       causal_text = File.exist?(causal_path) ? File.read(causal_path).strip : nil
 
-      # Parse ABCDE checklist.csv
-      checklist_path = File.join(case_folder, "ABCDE checklist.csv")
+      # Parse ABCDE checklist (XLSX or CSV)
       checklist_data = nil
-      if File.exist?(checklist_path)
-        csv_data = CSV.read(checklist_path, headers: true)
+      xlsx_path = File.join(case_folder, "ABCDE checklist.xlsx")
+      csv_path = File.join(case_folder, "ABCDE checklist.csv")
+
+      if File.exist?(xlsx_path)
+        checklist_data = parse_xlsx_checklist(xlsx_path)
+      elsif File.exist?(csv_path)
+        csv_data = CSV.read(csv_path, headers: true)
         checklist_data = csv_data.map(&:to_h)
       end
 
@@ -56,4 +60,22 @@ namespace :cases do
 
     puts "Import completed. Total cases: #{MedicalCase.count}"
   end
+end
+
+def parse_xlsx_checklist(path)
+  require "roo"
+  xlsx = Roo::Spreadsheet.open(path)
+  sheet = xlsx.sheet(0)
+
+  headers = sheet.row(1).map { |h| h.to_s.strip }
+  data_row = sheet.row(2)
+
+  row_hash = {}
+  headers.each_with_index do |header, i|
+    next if header.empty?
+    value = data_row[i]
+    row_hash[header] = value.is_a?(Numeric) ? value.to_i : value
+  end
+
+  [ row_hash ]
 end

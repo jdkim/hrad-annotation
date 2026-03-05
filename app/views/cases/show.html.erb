@@ -9,127 +9,20 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-    <!-- Left Column: Images -->
-    <div class="space-y-4">
-      <h2 class="text-xl font-semibold text-gray-900">Images</h2>
-      <div class="bg-white shadow rounded-lg p-4">
-        <% if @case.image_paths.present? %>
-          <div class="space-y-4">
-            <% @case.image_paths.each_with_index do |image_path, index| %>
-              <div class="border rounded-lg overflow-hidden">
-                <div class="bg-gray-100 px-3 py-2 text-sm font-medium text-gray-700">
-                  <%= image_path %>
-                </div>
-                <img src="<%= case_image_path(@case.case_id, image_path) %>"
-                     alt="<%= image_path %>"
-                     class="w-1/2 h-auto cursor-pointer hover:opacity-90"
-                     onclick="openImageModal(this.src, '<%= image_path %>')">
-              </div>
-            <% end %>
-          </div>
-        <% else %>
-          <p class="text-gray-500">No images available</p>
-        <% end %>
-      </div>
-    </div>
-
-    <!-- Right Column: Report & Causal Exploration -->
-    <div class="space-y-6">
-      <!-- Report Section -->
-      <div>
-        <h2 class="text-xl font-semibold text-gray-900 mb-2">Radiology Report</h2>
-        <div class="bg-white shadow rounded-lg p-4">
-          <% if @case.report_text.present? %>
-            <pre class="whitespace-pre-wrap text-sm text-gray-800 font-mono"><%= @case.report_text %></pre>
-          <% else %>
-            <p class="text-gray-500">No report available</p>
-          <% end %>
-        </div>
-      </div>
-
-      <!-- Causal Exploration Section -->
-      <div>
-        <h2 class="text-xl font-semibold text-gray-900 mb-2">Causal Exploration</h2>
-        <div class="bg-white shadow rounded-lg p-4">
-          <% if @case.causal_exploration_text.present? %>
-            <p class="text-sm text-gray-800"><%= @case.causal_exploration_text %></p>
-          <% else %>
-            <p class="text-gray-500">No causal exploration available</p>
-          <% end %>
-        </div>
-      </div>
+  <!-- 1. Causal Exploration Section -->
+  <div class="mb-6">
+    <h2 class="text-xl font-semibold text-gray-900 mb-2">Causal Exploration</h2>
+    <div class="bg-white shadow rounded-lg p-4">
+      <% if @case.causal_exploration_text.present? %>
+        <p class="text-sm text-gray-800"><%= @case.causal_exploration_text %></p>
+      <% else %>
+        <p class="text-gray-500">No causal exploration available</p>
+      <% end %>
     </div>
   </div>
 
-  <!-- ABCDE Checklist Section -->
-  <div class="mt-8">
-    <details class="bg-white shadow rounded-lg overflow-hidden">
-      <summary class="text-xl font-semibold text-gray-900 p-4 cursor-pointer hover:bg-gray-50 flex items-center justify-between">
-        <span>ABCDE Checklist</span>
-        <svg class="w-5 h-5 text-gray-500 transform transition-transform details-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-        </svg>
-      </summary>
-      <div class="p-4 border-t">
-        <% if @case.checklist_data.present? && @case.checklist_data.any? %>
-          <% checklist = @case.checklist_data.first %>
-
-          <!-- Summary Fields -->
-          <details open class="mb-4">
-            <summary class="text-lg font-medium text-gray-800 mb-3 cursor-pointer hover:text-gray-600">Summary</summary>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm mt-3">
-              <div class="bg-gray-50 p-3 rounded">
-                <span class="font-medium text-gray-700">Diagnosis (A1):</span>
-                <span class="text-gray-900 ml-1"><%= checklist["A1"] %></span>
-              </div>
-              <div class="bg-gray-50 p-3 rounded">
-                <span class="font-medium text-gray-700">Location (A2):</span>
-                <span class="text-gray-900 ml-1"><%= checklist["A2"] %></span>
-              </div>
-              <div class="bg-gray-50 p-3 rounded">
-                <span class="font-medium text-gray-700">Region (A3):</span>
-                <span class="text-gray-900 ml-1"><%= checklist["A3"] %></span>
-              </div>
-              <div class="bg-gray-50 p-3 rounded">
-                <span class="font-medium text-gray-700">Findings (A4):</span>
-                <span class="text-gray-900 ml-1"><%= checklist["A4"] %></span>
-              </div>
-            </div>
-          </details>
-
-          <!-- Detailed Checklist Questions -->
-          <details>
-            <summary class="text-lg font-medium text-gray-800 mb-3 cursor-pointer hover:text-gray-600">Detailed Checklist (View 1)</summary>
-            <div class="space-y-2 text-sm mt-3">
-              <%
-                # Get checklist questions (columns after A4, before they repeat)
-                skip_cols = ["Dir", "Report_name", "DICOM_name", "Case_ID", "A1", "A2", "A3", "A4"]
-                questions = checklist.keys.reject { |k| skip_cols.include?(k) }.first(28)
-              %>
-              <% questions.each do |question| %>
-                <% value = checklist[question] %>
-                <% next if value.nil? || value == "null" %>
-                <div class="flex items-start gap-2 py-1 border-b border-gray-100">
-                  <% if value.to_s == "1" %>
-                    <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-red-100 text-red-600 flex-shrink-0 mt-0.5">!</span>
-                  <% else %>
-                    <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-green-100 text-green-600 flex-shrink-0 mt-0.5">&#10003;</span>
-                  <% end %>
-                  <span class="text-gray-700"><%= question.split('.', 2).last %></span>
-                </div>
-              <% end %>
-            </div>
-          </details>
-        <% else %>
-          <p class="text-gray-500">No checklist data available</p>
-        <% end %>
-      </div>
-    </details>
-  </div>
-
-  <!-- SCE Section -->
-  <div class="mt-8">
+  <!-- 2. SCE Section -->
+  <div class="mb-6">
     <h2 class="text-xl font-semibold text-gray-900 mb-4">Structured Causal Explanations (SCE)</h2>
 
     <%= turbo_frame_tag "sces" do %>
@@ -199,6 +92,109 @@
         <% end %>
       </div>
     <% end %>
+  </div>
+
+  <!-- 3. Images Section -->
+  <div class="mb-6">
+    <h2 class="text-xl font-semibold text-gray-900 mb-2">Images</h2>
+    <div class="bg-white shadow rounded-lg p-4">
+      <% if @case.image_paths.present? %>
+        <div class="flex flex-wrap gap-4">
+          <% @case.image_paths.each_with_index do |image_path, index| %>
+            <div class="border rounded-lg overflow-hidden">
+              <div class="bg-gray-100 px-3 py-2 text-sm font-medium text-gray-700">
+                <%= image_path %>
+              </div>
+              <img src="<%= case_image_path(@case.case_id, image_path) %>"
+                   alt="<%= image_path %>"
+                   class="w-64 h-auto cursor-pointer hover:opacity-90"
+                   onclick="openImageModal(this.src, '<%= image_path %>')">
+            </div>
+          <% end %>
+        </div>
+      <% else %>
+        <p class="text-gray-500">No images available</p>
+      <% end %>
+    </div>
+  </div>
+
+  <!-- 4. Radiology Report Section -->
+  <div class="mb-6">
+    <h2 class="text-xl font-semibold text-gray-900 mb-2">Radiology Report</h2>
+    <div class="bg-white shadow rounded-lg p-4">
+      <% if @case.report_text.present? %>
+        <pre class="whitespace-pre-wrap text-sm text-gray-800 font-mono"><%= @case.report_text %></pre>
+      <% else %>
+        <p class="text-gray-500">No report available</p>
+      <% end %>
+    </div>
+  </div>
+
+  <!-- 5. ABCDE Checklist Section -->
+  <div class="mb-6">
+    <details class="bg-white shadow rounded-lg overflow-hidden">
+      <summary class="text-xl font-semibold text-gray-900 p-4 cursor-pointer hover:bg-gray-50 flex items-center justify-between">
+        <span>ABCDE Checklist</span>
+        <svg class="w-5 h-5 text-gray-500 transform transition-transform details-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </summary>
+      <div class="p-4 border-t">
+        <% if @case.checklist_data.present? && @case.checklist_data.any? %>
+          <% checklist = @case.checklist_data.first %>
+
+          <!-- Summary Fields -->
+          <details open class="mb-4">
+            <summary class="text-lg font-medium text-gray-800 mb-3 cursor-pointer hover:text-gray-600">Summary</summary>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm mt-3">
+              <div class="bg-gray-50 p-3 rounded">
+                <span class="font-medium text-gray-700">Diagnosis (A1):</span>
+                <span class="text-gray-900 ml-1"><%= checklist["A1"] %></span>
+              </div>
+              <div class="bg-gray-50 p-3 rounded">
+                <span class="font-medium text-gray-700">Location (A2):</span>
+                <span class="text-gray-900 ml-1"><%= checklist["A2"] %></span>
+              </div>
+              <div class="bg-gray-50 p-3 rounded">
+                <span class="font-medium text-gray-700">Region (A3):</span>
+                <span class="text-gray-900 ml-1"><%= checklist["A3"] %></span>
+              </div>
+              <div class="bg-gray-50 p-3 rounded">
+                <span class="font-medium text-gray-700">Findings (A4):</span>
+                <span class="text-gray-900 ml-1"><%= checklist["A4"] %></span>
+              </div>
+            </div>
+          </details>
+
+          <!-- Detailed Checklist Questions -->
+          <details>
+            <summary class="text-lg font-medium text-gray-800 mb-3 cursor-pointer hover:text-gray-600">Detailed Checklist (View 1)</summary>
+            <div class="space-y-2 text-sm mt-3">
+              <%
+                # Get checklist questions (columns after A4, before they repeat)
+                skip_cols = ["Dir", "Report_name", "DICOM_name", "Case_ID", "A1", "A2", "A3", "A4"]
+                # Also skip columns with .1, .2, .3 suffixes (repeated views)
+                questions = checklist.keys.reject { |k| skip_cols.include?(k) || k.match?(/\.\d+$/) }.first(28)
+              %>
+              <% questions.each do |question| %>
+                <% value = checklist[question] %>
+                <% next if value.nil? || value == "null" %>
+                <div class="flex items-start gap-2 py-1 border-b border-gray-100">
+                  <% if value.to_s == "1" %>
+                    <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-red-100 text-red-600 flex-shrink-0 mt-0.5">!</span>
+                  <% else %>
+                    <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-green-100 text-green-600 flex-shrink-0 mt-0.5">&#10003;</span>
+                  <% end %>
+                  <span class="text-gray-700"><%= question.split('.', 2).last %></span>
+                </div>
+              <% end %>
+            </div>
+          </details>
+        <% else %>
+          <p class="text-gray-500">No checklist data available</p>
+        <% end %>
+      </div>
+    </details>
   </div>
 </div>
 
