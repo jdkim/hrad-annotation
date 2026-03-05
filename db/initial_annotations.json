@@ -1,0 +1,3080 @@
+[
+  {
+    "case_id": "1",
+    "finding": "trace right pleural effusion located at the right pleural space in the right lower lobe with bibasilar patchy opacities",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "1",
+    "finding": "minimal blunting of the right costophrenic angle",
+    "impression": "small pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "2",
+    "finding": "presence of left pleural effusion",
+    "impression": "fluid accumulation in the pleural cavity",
+    "certainty": false
+  },
+  {
+    "case_id": "2",
+    "finding": "left pleural effusion",
+    "impression": "blunting of the costophrenic angle",
+    "certainty": false
+  },
+  {
+    "case_id": "2",
+    "finding": "left pleural effusion",
+    "impression": "mediastinal shift to the right",
+    "certainty": false
+  },
+  {
+    "case_id": "2",
+    "finding": "increased pleural effusion and low lung volumes",
+    "impression": "respiratory compromise",
+    "certainty": false
+  },
+  {
+    "case_id": "2",
+    "finding": "overlying effusion and shifted mediastinum",
+    "impression": "indeterminate heart size",
+    "certainty": false
+  },
+  {
+    "case_id": "3",
+    "finding": "atelectasis in the Left Lower Lobe (LLL)",
+    "impression": "persistent but stable condition",
+    "certainty": false
+  },
+  {
+    "case_id": "3",
+    "finding": "nodule in the Right Middle Lobe (RML) at the fifth posterior rib",
+    "impression": "persistent but stable condition",
+    "certainty": false
+  },
+  {
+    "case_id": "3",
+    "finding": "minimal basal atelectasis",
+    "impression": "persistent but stable condition",
+    "certainty": false
+  },
+  {
+    "case_id": "3",
+    "finding": "small nodule",
+    "impression": "persistent but stable condition",
+    "certainty": false
+  },
+  {
+    "case_id": "4",
+    "finding": "right upper lobe spiculated nodule",
+    "impression": "notable nodule in the right upper lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "5",
+    "finding": "6 mm nodular opacity in the right lower lung",
+    "impression": "stable pulmonary nodule",
+    "certainty": false
+  },
+  {
+    "case_id": "6",
+    "finding": "right lower lung opacity identified as a mass",
+    "impression": "mass in the right lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "6",
+    "finding": "mass located in the right lower lobe with size of 5 x 5.3 cm",
+    "impression": "likely related to an adjacent hemorrhage surrounding the nodule",
+    "certainty": false
+  },
+  {
+    "case_id": "6",
+    "finding": "mass in right lower lobe with adjacent hemorrhage",
+    "impression": "consistent with post-RFA (Radiofrequency Ablation) status",
+    "certainty": false
+  },
+  {
+    "case_id": "6",
+    "finding": "stability of the heart size and mediastinum",
+    "impression": "no significant tracheal deviation or other complications",
+    "certainty": false
+  },
+  {
+    "case_id": "6",
+    "finding": "no pneumothorax or pleural effusion",
+    "impression": "procedure did not lead to these complications",
+    "certainty": false
+  },
+  {
+    "case_id": "7",
+    "finding": "diffuse interstitial abnormalities and micronodular opacities in the right middle lobe, right lower lobe, left upper lobe, and left lower lobe",
+    "impression": "interstitial lung disease",
+    "certainty": false
+  },
+  {
+    "case_id": "8",
+    "finding": "opacity in the right middle lobe",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "8",
+    "finding": "abnormally increased density area",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "8",
+    "finding": "small round well demarcated opacity in the left upper lung",
+    "impression": "nodule",
+    "certainty": false
+  },
+  {
+    "case_id": "9",
+    "finding": "widespread nodular densities",
+    "impression": "possible metastatic disease",
+    "certainty": false
+  },
+  {
+    "case_id": "9",
+    "finding": "small right-sided pleural effusion",
+    "impression": "metastasis and other malignancies",
+    "certainty": false
+  },
+  {
+    "case_id": "9",
+    "finding": "nodule in the right lower lobe",
+    "impression": "ongoing pathological process in the lungs",
+    "certainty": false
+  },
+  {
+    "case_id": "10",
+    "finding": "pneumothorax in the left upper lobe (LUL) as indicated by the chest radiograph",
+    "impression": "small apical pneumothorax",
+    "certainty": false
+  },
+  {
+    "case_id": "11",
+    "finding": "left lower lung nodule has increased in size",
+    "impression": "mass",
+    "certainty": false
+  },
+  {
+    "case_id": "11",
+    "finding": "minimal left pleural effusion",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "12",
+    "finding": "opacities in the right lower lobe",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "12",
+    "finding": "increased density area in the lower zones of the lung",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "13",
+    "finding": "lack of tracheal deviation, normal tracheal diameter, and symmetrical lung zones",
+    "impression": "rules out other potential abnormalities",
+    "certainty": false
+  },
+  {
+    "case_id": "13",
+    "finding": "absence of focal consolidation, pleural effusion, and pneumothorax",
+    "impression": "supports the identification of the nodule",
+    "certainty": false
+  },
+  {
+    "case_id": "14",
+    "finding": "asymmetrical density areas when comparing the different lung zones",
+    "impression": "atelectasis in the right lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "15",
+    "finding": "large amount of free intra-abdominal air",
+    "impression": "recent surgery",
+    "certainty": false
+  },
+  {
+    "case_id": "15",
+    "finding": "extremely low lung volumes",
+    "impression": "crowding of the bronchovascular structures",
+    "certainty": false
+  },
+  {
+    "case_id": "16",
+    "finding": "blunting of the costophrenic angle",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "16",
+    "finding": "finding in the left pleural area at coordinates {3, 11}",
+    "impression": "left pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "17",
+    "finding": "bibasilar areas of atelectasis in the right middle lobe and left pleural areas",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "17",
+    "finding": "pleural effusion in the left pleural region",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "18",
+    "finding": "interval progression of the consolidation in the left lung",
+    "impression": "severe aspiration pneumonia in the LLL",
+    "certainty": false
+  },
+  {
+    "case_id": "18",
+    "finding": "presence of small bilateral pleural effusions",
+    "impression": "persistent pleural effusion in both the Left Pleural and Right Pleural regions",
+    "certainty": false
+  },
+  {
+    "case_id": "19",
+    "finding": "increased density area in the left upper zone",
+    "impression": "pneumonia in the left upper lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "19",
+    "finding": "opacity in the same area",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "20",
+    "finding": "atelectasis in the right mid and both lower lungs",
+    "impression": "localized collapse or incomplete expansion of the pulmonary tissue",
+    "certainty": false
+  },
+  {
+    "case_id": "20",
+    "finding": "patchy and linear opacities in these regions",
+    "impression": "supports atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "20",
+    "finding": "small right pleural effusion",
+    "impression": "reduced lung volumes",
+    "certainty": false
+  },
+  {
+    "case_id": "20",
+    "finding": "reduced lung volumes",
+    "impression": "accentuated cardiac silhouette and bronchovascular structures",
+    "certainty": false
+  },
+  {
+    "case_id": "21",
+    "finding": "abnormal increase in density areas at both lung bases",
+    "impression": "symmetrical atelectasis at both lung bases",
+    "certainty": false
+  },
+  {
+    "case_id": "21",
+    "finding": "cardiothoracic ratio exceeding 50%",
+    "impression": "moderate cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "21",
+    "finding": "minimal fluid overload",
+    "impression": "contribution to atelectasis and cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "21",
+    "finding": "tortuosity of the thoracic aorta",
+    "impression": "contribution to atelectasis and cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "22",
+    "finding": "left costophrenic angle opacity",
+    "impression": "atelectasis in the Left Lower Lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "23",
+    "finding": "hyperinflation of the lungs and flattened diaphragms",
+    "impression": "severe emphysema",
+    "certainty": false
+  },
+  {
+    "case_id": "23",
+    "finding": "area of linear scarring in the right upper lobe",
+    "impression": "severe emphysema",
+    "certainty": false
+  },
+  {
+    "case_id": "23",
+    "finding": "absence of pneumonia or CHF, stable bony structures and cardiomediastinal silhouette",
+    "impression": "severe emphysema",
+    "certainty": false
+  },
+  {
+    "case_id": "24",
+    "finding": "abnormally increased density in the right lower lobe",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "24",
+    "finding": "bibasilar opacities",
+    "impression": "combination of pleural effusions and atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "24",
+    "finding": "stable bilateral pleural effusions",
+    "impression": "unchanged nature of the pleural effusions from the prior study",
+    "certainty": false
+  },
+  {
+    "case_id": "25",
+    "finding": "abnormal air presence in the mediastinum",
+    "impression": "pneumomediastinum",
+    "certainty": false
+  },
+  {
+    "case_id": "25",
+    "finding": "small left pneumothorax and worsened pneumomediastinum",
+    "impression": "air leak into the mediastinum",
+    "certainty": false
+  },
+  {
+    "case_id": "25",
+    "finding": "removal of the left chest tube",
+    "impression": "exacerbation of pneumomediastinum",
+    "certainty": false
+  },
+  {
+    "case_id": "26",
+    "finding": "left rib fracture",
+    "impression": "subcutaneous emphysema, pneumomediastinum, and pneumopericardium",
+    "certainty": false
+  },
+  {
+    "case_id": "26",
+    "finding": "fractured ribs",
+    "impression": "left lower lobe opacity",
+    "certainty": false
+  },
+  {
+    "case_id": "26",
+    "finding": "left lower lobe opacity",
+    "impression": "pulmonary hemorrhage",
+    "certainty": false
+  },
+  {
+    "case_id": "26",
+    "finding": "extensive subcutaneous emphysema in the chest wall and neck",
+    "impression": "rib fracture",
+    "certainty": false
+  },
+  {
+    "case_id": "27",
+    "finding": "severe bilateral pulmonary consolidation",
+    "impression": "pneumonia in Right Upper Lobe (RUL) and Left Lower Lobe (LLL)",
+    "certainty": false
+  },
+  {
+    "case_id": "27",
+    "finding": "increased density areas in the lung zones",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "27",
+    "finding": "moderate right pleural effusion",
+    "impression": "abnormal density and fluid accumulation in the pleural space",
+    "certainty": false
+  },
+  {
+    "case_id": "28",
+    "finding": "curvilinear lucency around the cardiomediastinal contours",
+    "impression": "mild pneumomediastinum",
+    "certainty": false
+  },
+  {
+    "case_id": "28",
+    "finding": "increased left retrocardiac opacity",
+    "impression": "worsening atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "29",
+    "finding": "unchanged size of the cardiac silhouette and absence of new parenchymal opacities",
+    "impression": "no significant progression of pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "29",
+    "finding": "minimal right pleural effusion",
+    "impression": "secondary to pneumonia located in the RML and RLL",
+    "certainty": false
+  },
+  {
+    "case_id": "29",
+    "finding": "absence of tracheal deviation, abnormal densities, and widened mediastinum",
+    "impression": "stable condition without acute exacerbation",
+    "certainty": false
+  },
+  {
+    "case_id": "30",
+    "finding": "overinflated lungs with biapical hyperlucency, widening of the anteroposterior diameter, and increased retrosternal clear space",
+    "impression": "chronic obstructive pulmonary disease",
+    "certainty": false
+  },
+  {
+    "case_id": "30",
+    "finding": "findings of emphysema",
+    "impression": "overinflated lung appearance",
+    "certainty": false
+  },
+  {
+    "case_id": "30",
+    "finding": "demineralized bones and thoracic hyperkyphosis with multilevel bridging ossification",
+    "impression": "possibly prolonged corticosteroid use in managing chronic obstructive pulmonary disease",
+    "certainty": false
+  },
+  {
+    "case_id": "30",
+    "finding": "subacute proximal right humeral fracture",
+    "impression": "result of the recent fall, compounded by the bone demineralization",
+    "certainty": false
+  },
+  {
+    "case_id": "31",
+    "finding": "atelectasis in the right lower lobe (RLL) and left lower lobe (LLL)",
+    "impression": "compromised airways or fatigue of inspiration musculature",
+    "certainty": false
+  },
+  {
+    "case_id": "31",
+    "finding": "bibasal opacities",
+    "impression": "areas of atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "32",
+    "finding": "bibasilar opacities observed in both lung bases",
+    "impression": "pneumonia and/or pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "32",
+    "finding": "increased density areas and blunting of the costophrenic angle",
+    "impression": "potential pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "32",
+    "finding": "low inspiratory volumes",
+    "impression": "accentuation of these findings",
+    "certainty": false
+  },
+  {
+    "case_id": "33",
+    "finding": "hyperexpansion of the lungs, diffuse hyperlucency, and flattening of the diaphragm",
+    "impression": "chronic obstructive pulmonary disease (COPD)",
+    "certainty": false
+  },
+  {
+    "case_id": "33",
+    "finding": "resolution of right middle lobe atelectasis, alongside normal cardiomediastinal and hilar contours",
+    "impression": "COPD",
+    "certainty": false
+  },
+  {
+    "case_id": "33",
+    "finding": "absence of pleural effusions, pneumothorax, or pneumomediastinum",
+    "impression": "no acute process complicating the chronic condition",
+    "certainty": false
+  },
+  {
+    "case_id": "34",
+    "finding": "focal pleural thickening at the left posterior lung base",
+    "impression": "pleurisy located in the left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "35",
+    "finding": "right lung base opacity",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "35",
+    "finding": "lucency along the left heart border",
+    "impression": "pneumomediastinum",
+    "certainty": false
+  },
+  {
+    "case_id": "35",
+    "finding": "air in the left cervical soft tissues",
+    "impression": "subcutaneous emphysema",
+    "certainty": false
+  },
+  {
+    "case_id": "36",
+    "finding": "hyperinflated lungs",
+    "impression": "chronic obstructive pulmonary disease",
+    "certainty": false
+  },
+  {
+    "case_id": "36",
+    "finding": "absence of pulmonary edema or pleural effusions",
+    "impression": "no additional complications such as fluid accumulation",
+    "certainty": false
+  },
+  {
+    "case_id": "37",
+    "finding": "leftward mediastinal shift and increased opacification in the left upper lobe",
+    "impression": "new atelectasis in the left lung",
+    "certainty": false
+  },
+  {
+    "case_id": "37",
+    "finding": "atelectasis localized in the left upper lobe with mediastinal shift and opacification",
+    "impression": "significant reduction in the volume of the affected lung segment",
+    "certainty": false
+  },
+  {
+    "case_id": "38",
+    "finding": "minimal bibasilar opacities",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "38",
+    "finding": "opacities in Right Lower Lobe and Left Lower Lobe regions",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "38",
+    "finding": "normal appearance of the hilar vessels and absence of widened mediastinum",
+    "impression": "diagnosis limited to pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "38",
+    "finding": "cardiac size and aortic arch dimensions within normal limits",
+    "impression": "excludes other potential differential diagnoses",
+    "certainty": false
+  },
+  {
+    "case_id": "39",
+    "finding": "no tracheal deviation, no widened carina, and no abnormal bronchial narrowing or cutoff",
+    "impression": "no pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "39",
+    "finding": "both lungs were well expanded and symmetrical with no extra lines in the periphery",
+    "impression": "no pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "39",
+    "finding": "hilar vessels were clearly seen on both sides",
+    "impression": "no pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "39",
+    "finding": "absence of abnormally increased density area and other related factors",
+    "impression": "no pneumonia in the left upper lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "40",
+    "finding": "bilateral right-greater-than-left effusions with underlying collapse and/or consolidation",
+    "impression": "pleural effusion and potential pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "40",
+    "finding": "increased temperature and yellow secretions",
+    "impression": "infectious process",
+    "certainty": false
+  },
+  {
+    "case_id": "40",
+    "finding": "absence of new infiltrates and unchanged cardiomediastinal silhouette",
+    "impression": "chronic nature of pleural effusion associated with underlying conditions such as CHF",
+    "certainty": false
+  },
+  {
+    "case_id": "41",
+    "finding": "fluid accumulation at the base of the left chest",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "41",
+    "finding": "increased density and volume loss",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "41",
+    "finding": "volume loss and leftward mediastinal shift",
+    "impression": "ongoing impact of postoperative conditions",
+    "certainty": false
+  },
+  {
+    "case_id": "42",
+    "finding": "4 mm nodular opacity in the left upper lobe between the fourth and fifth ribs",
+    "impression": "pulmonary nodule",
+    "certainty": false
+  },
+  {
+    "case_id": "43",
+    "finding": "pulmonary vascular congestion and pleural effusion in the left lower lobe",
+    "impression": "underlying congestion and pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "43",
+    "finding": "increased density area in the lung zones and the cardiothoracic ratio over 50",
+    "impression": "congestion",
+    "certainty": false
+  },
+  {
+    "case_id": "44",
+    "finding": "worsening opacity in the right lower lobe and band-like areas of atelectasis in both lower lobes",
+    "impression": "post-operative changes",
+    "certainty": false
+  },
+  {
+    "case_id": "44",
+    "finding": "possible small pleural effusions bilaterally",
+    "impression": "pleural involvement",
+    "certainty": false
+  },
+  {
+    "case_id": "44",
+    "finding": "combination of atelectasis and pleural effusion",
+    "impression": "post-surgical state with potential complications such as localized hemorrhage or infection",
+    "certainty": false
+  },
+  {
+    "case_id": "45",
+    "finding": "small partially loculated right pleural effusion",
+    "impression": "abnormal accumulation of fluid in the pleural space on the right side",
+    "certainty": false
+  },
+  {
+    "case_id": "46",
+    "finding": "small-to-moderate right pleural effusion and small left pleural effusion",
+    "impression": "pleural effusion in the Right Pleural and Left Pleural regions",
+    "certainty": false
+  },
+  {
+    "case_id": "46",
+    "finding": "increased density areas in the lower zones of the lungs",
+    "impression": "adjacent atelectasis associated with these effusions",
+    "certainty": false
+  },
+  {
+    "case_id": "47",
+    "finding": "1 cm opacity in the right suprahilar region",
+    "impression": "pneumonia, particularly in the RML (Right Middle Lobe)",
+    "certainty": false
+  },
+  {
+    "case_id": "48",
+    "finding": "bibasilar opacities and retrocardiac opacity silhouetting the descending thoracic aorta",
+    "impression": "pneumonia located in the Left Lower Lobe (LLL) and Right Lower Lobe (RLL)",
+    "certainty": false
+  },
+  {
+    "case_id": "48",
+    "finding": "increased interstitial markings",
+    "impression": "edema, potentially contributing to the development of pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "49",
+    "finding": "streaky basilar opacity",
+    "impression": "atelectasis in the right lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "49",
+    "finding": "unchanged nature of opacity",
+    "impression": "chronic condition rather than acute process",
+    "certainty": false
+  },
+  {
+    "case_id": "49",
+    "finding": "no significant deviations in tracheal or bronchial structures and symmetrical lung volume and density",
+    "impression": "atelectasis diagnosis without additional complications",
+    "certainty": false
+  },
+  {
+    "case_id": "50",
+    "finding": "slight increase in interstitial markings in the right lung base and left lung base",
+    "impression": "interstitial lung disease",
+    "certainty": false
+  },
+  {
+    "case_id": "50",
+    "finding": "increase in interstitial markings",
+    "impression": "chronic lung disease",
+    "certainty": false
+  },
+  {
+    "case_id": "51",
+    "finding": "new ill-defined parenchymal opacity at the left lung bases",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "51",
+    "finding": "asymmetry and abnormally increased density areas found in the apical, upper, middle, and lower zones of the lungs",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "51",
+    "finding": "increased density area in the left lower lobe",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "52",
+    "finding": "prominence of bilateral hila and their somewhat lobulated appearance",
+    "impression": "lymphadenopathy",
+    "certainty": false
+  },
+  {
+    "case_id": "53",
+    "finding": "right perihilar rounded opacity",
+    "impression": "lymphadenopathy",
+    "certainty": false
+  },
+  {
+    "case_id": "54",
+    "finding": "consolidative opacities within both lung bases",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "54",
+    "finding": "small bilateral pleural effusions",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "54",
+    "finding": "asymmetry in the lung zones",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "54",
+    "finding": "abnormally increased density areas",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "54",
+    "finding": "blunting of the costophrenic angles",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "55",
+    "finding": "density areas in the right lower lobe",
+    "impression": "pneumonia in the right lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "55",
+    "finding": "opacities in the right lower lobe",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "55",
+    "finding": "absence of new opacities or pneumothorax",
+    "impression": "stability of the condition",
+    "certainty": false
+  },
+  {
+    "case_id": "55",
+    "finding": "pneumonia",
+    "impression": "symptoms of cough and dyspnea",
+    "certainty": false
+  },
+  {
+    "case_id": "55",
+    "finding": "unchanged small bilateral pleural effusions",
+    "impression": "diagnosis and localization of pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "56",
+    "finding": "persistence of right hilar lymphadenopathy",
+    "impression": "chronic condition that may not be resolving quickly",
+    "certainty": false
+  },
+  {
+    "case_id": "56",
+    "finding": "location of the lymphadenopathy in the right hilum and its appearance",
+    "impression": "chronic inflammatory or neoplastic conditions",
+    "certainty": false
+  },
+  {
+    "case_id": "57",
+    "finding": "pneumonia in the right upper lobe (RUL) and lymphadenopathy in both the hilar and mediastinal regions",
+    "impression": "multifocal infectious process",
+    "certainty": false
+  },
+  {
+    "case_id": "57",
+    "finding": "known Sarcoidosis",
+    "impression": "extensive lymphadenopathy, which may be reactive",
+    "certainty": false
+  },
+  {
+    "case_id": "57",
+    "finding": "opacities and pleural effusions",
+    "impression": "pneumonia and lymphadenopathy, leading to respiratory distress",
+    "certainty": false
+  },
+  {
+    "case_id": "58",
+    "finding": "thickening of the right paratracheal stripe",
+    "impression": "mass",
+    "certainty": false
+  },
+  {
+    "case_id": "58",
+    "finding": "mass in the right hilum region",
+    "impression": "lymphadenopathy or other soft tissue abnormalities",
+    "certainty": false
+  },
+  {
+    "case_id": "59",
+    "finding": "heart appears mildly enlarged",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "59",
+    "finding": "increasing left basilar airspace opacity",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "60",
+    "finding": "increased opacification at the right base",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "60",
+    "finding": "blunting of the costophrenic angle",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "60",
+    "finding": "presence of pneumonia in the right lower lobe",
+    "impression": "observed opacification and underlying atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "61",
+    "finding": "increase in pleural effusion on the right side",
+    "impression": "related to the recent removal of the right-sided chest tube",
+    "certainty": false
+  },
+  {
+    "case_id": "62",
+    "finding": "decrease in left-sided pleural effusion and interval partial re-expansion of the left lung",
+    "impression": "improvement",
+    "certainty": false
+  },
+  {
+    "case_id": "62",
+    "finding": "persistence of patchy areas of alveolar edema in the mid left lung",
+    "impression": "dense retrocardiac opacification",
+    "certainty": false
+  },
+  {
+    "case_id": "62",
+    "finding": "dense retrocardiac opacification",
+    "impression": "volume loss or infiltrate in the left lower lung",
+    "certainty": false
+  },
+  {
+    "case_id": "63",
+    "finding": "persistent right lower lung opacification and pleural effusion",
+    "impression": "pathological accumulation of fluid between the layers of the pleura",
+    "certainty": false
+  },
+  {
+    "case_id": "63",
+    "finding": "consistent opacification",
+    "impression": "fluid collection substantial enough to cause visual obstruction on imaging, indicating need for intervention",
+    "certainty": false
+  },
+  {
+    "case_id": "63",
+    "finding": "absence of pneumothorax",
+    "impression": "intervention has not caused additional complications",
+    "certainty": false
+  },
+  {
+    "case_id": "64",
+    "finding": "moderate left pleural effusion",
+    "impression": "collapse of the left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "64",
+    "finding": "moderate left pleural effusion",
+    "impression": "elevation of the left hemidiaphragm",
+    "certainty": false
+  },
+  {
+    "case_id": "64",
+    "finding": "lack of tracheal deviation and absence of other abnormalities in respiratory structures",
+    "impression": "consistent with left pleural effusion with lower lobe collapse",
+    "certainty": false
+  },
+  {
+    "case_id": "65",
+    "finding": "acute right lateral rib fracture with displacement of a rib fracture fragment",
+    "impression": "small right-sided effusion, potentially hemothorax",
+    "certainty": false
+  },
+  {
+    "case_id": "65",
+    "finding": "displacement of rib fracture fragment",
+    "impression": "small right-sided effusion, potentially hemothorax",
+    "certainty": false
+  },
+  {
+    "case_id": "66",
+    "finding": "linear opacities in the right upper lobe",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "66",
+    "finding": "opacities in the RUL are now more pronounced than in the previous examination",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "66",
+    "finding": "specific position {2, 4} indicates a localized area",
+    "impression": "atelectasis within the right upper lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "67",
+    "finding": "opacification at the left base",
+    "impression": "atelectasis in the Left Lower Lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "68",
+    "finding": "right chest tube placement",
+    "impression": "drainage of the extensive right pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "68",
+    "finding": "improvement in right lung aeration",
+    "impression": "effectiveness of the chest tube",
+    "certainty": false
+  },
+  {
+    "case_id": "68",
+    "finding": "stability of the left lung and heart",
+    "impression": "no further complications",
+    "certainty": false
+  },
+  {
+    "case_id": "69",
+    "finding": "increased opacity in both lungs",
+    "impression": "pulmonary edema",
+    "certainty": false
+  },
+  {
+    "case_id": "69",
+    "finding": "abnormally increased density areas in the lung zones",
+    "impression": "pulmonary edema",
+    "certainty": false
+  },
+  {
+    "case_id": "69",
+    "finding": "edema in the Left Lower Lobe (LLL) and Right Upper Lobe (RUL)",
+    "impression": "pulmonary edema",
+    "certainty": false
+  },
+  {
+    "case_id": "70",
+    "finding": "presence of hydro pneumothorax and bilateral pulmonary opacity",
+    "impression": "pneumothorax and edema",
+    "certainty": false
+  },
+  {
+    "case_id": "70",
+    "finding": "rightward displacement of the trachea from the aorta",
+    "impression": "persistent hydro pneumothorax and pulmonary edema causing tracheal deviation and cardiomediastinal silhouette stability",
+    "certainty": false
+  },
+  {
+    "case_id": "71",
+    "finding": "atelectasis in the left lower lobe (LLL) and left upper lobe (LUL)",
+    "impression": "decrease in air volume and increased opacification noted in the left hemithorax",
+    "certainty": false
+  },
+  {
+    "case_id": "71",
+    "finding": "findings of atelectasis",
+    "impression": "associated with the surgical history and interval changes",
+    "certainty": false
+  },
+  {
+    "case_id": "71",
+    "finding": "resolution of subcutaneous air in the left chest wall",
+    "impression": "ongoing postoperative recovery process",
+    "certainty": false
+  },
+  {
+    "case_id": "72",
+    "finding": "continued enlargement of the cardiac silhouette and pleural effusion",
+    "impression": "congestive heart failure",
+    "certainty": false
+  },
+  {
+    "case_id": "73",
+    "finding": "mild interstitial edema",
+    "impression": "fluid accumulation in the lung interstitium",
+    "certainty": false
+  },
+  {
+    "case_id": "73",
+    "finding": "patchy bilateral parenchymal opacities",
+    "impression": "underlying edema or infectious process such as pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "73",
+    "finding": "chronic biapical scarring",
+    "impression": "long-standing pulmonary condition",
+    "certainty": false
+  },
+  {
+    "case_id": "74",
+    "finding": "bilateral airspace opacities, particularly in the right upper lobe",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "74",
+    "finding": "slightly decreased size of large left pleural effusion and small-to-moderate right pleural effusion",
+    "impression": "pleural effusion condition",
+    "certainty": false
+  },
+  {
+    "case_id": "75",
+    "finding": "new patchy and linear opacities in the left lower lobe",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "76",
+    "finding": "pleural effusion, lymphadenopathy, and mass",
+    "impression": "complex underlying pathology",
+    "certainty": false
+  },
+  {
+    "case_id": "76",
+    "finding": "loculated left pleural effusion and pleural malignant disease",
+    "impression": "pleural effusion and mass",
+    "certainty": false
+  },
+  {
+    "case_id": "76",
+    "finding": "lymphadenopathy",
+    "impression": "advanced disease process involving the pleura and mediastinum",
+    "certainty": false
+  },
+  {
+    "case_id": "76",
+    "finding": "pleural effusion, lymphadenopathy, and mass",
+    "impression": "significant and persistent pleural and mediastinal pathology, possibly of a malignant nature",
+    "certainty": false
+  },
+  {
+    "case_id": "77",
+    "finding": "new 7-mm right apical lung nodule",
+    "impression": "nodule in the right upper lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "77",
+    "finding": "new opacity identified as a nodule in the right apex",
+    "impression": "recently developed nodule",
+    "certainty": false
+  },
+  {
+    "case_id": "77",
+    "finding": "nodule not present on prior chest radiograph",
+    "impression": "recently developed lesion",
+    "certainty": false
+  },
+  {
+    "case_id": "77",
+    "finding": "right apical lung nodule",
+    "impression": "potential malignancy requiring follow-up CT",
+    "certainty": false
+  },
+  {
+    "case_id": "78",
+    "finding": "large mass in the right lower hemithorax",
+    "impression": "abnormal pathological process in the right lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "78",
+    "finding": "abnormally increased density area in the lung zones",
+    "impression": "mass lesion",
+    "certainty": false
+  },
+  {
+    "case_id": "78",
+    "finding": "destruction of adjacent ribs",
+    "impression": "invasive pathological process",
+    "certainty": false
+  },
+  {
+    "case_id": "78",
+    "finding": "smaller nodules in the left lung",
+    "impression": "mass rather than pneumonia or cardiac decompensation",
+    "certainty": false
+  },
+  {
+    "case_id": "79",
+    "finding": "left lower lobe pleural effusion",
+    "impression": "fluid accumulation which may cause compressive atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "79",
+    "finding": "opacification in the retrocardiac area",
+    "impression": "infectious process such as pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "79",
+    "finding": "biapical parenchymal scarring",
+    "impression": "history of lung infections or chronic conditions",
+    "certainty": false
+  },
+  {
+    "case_id": "79",
+    "finding": "near-total resolution of the right-sided pleural effusion",
+    "impression": "effective response to prior treatment",
+    "certainty": false
+  },
+  {
+    "case_id": "80",
+    "finding": "presence of fluid in the right major fissure",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "80",
+    "finding": "increased opacities at both lung bases",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "80",
+    "finding": "moderate cardiomegaly",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "81",
+    "finding": "stable right pleural effusion and minimal remaining left pleural effusion",
+    "impression": "ongoing pleural pathology",
+    "certainty": false
+  },
+  {
+    "case_id": "81",
+    "finding": "numerous nodular opacities throughout both lungs",
+    "impression": "pulmonary metastasis",
+    "certainty": false
+  },
+  {
+    "case_id": "81",
+    "finding": "stable pleural effusions",
+    "impression": "associated with the metastatic disease process",
+    "certainty": false
+  },
+  {
+    "case_id": "82",
+    "finding": "cardiomegaly",
+    "impression": "enlargement of the heart",
+    "certainty": false
+  },
+  {
+    "case_id": "82",
+    "finding": "heart size being mildly enlarged",
+    "impression": "enlargement localized to the Right Ventricle",
+    "certainty": false
+  },
+  {
+    "case_id": "82",
+    "finding": "cardiothoracic ratio is over 50 and not in the normal range",
+    "impression": "supports heart enlargement finding",
+    "certainty": false
+  },
+  {
+    "case_id": "83",
+    "finding": "small right pleural effusion",
+    "impression": "malignant pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "83",
+    "finding": "asymmetry and abnormally increased density in the right middle lobe",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "84",
+    "finding": "extensive diffuse bilateral opacities",
+    "impression": "metastasis predominantly located in the Right Upper Lobe (RUL) and Right Lower Lobe (RLL)",
+    "certainty": false
+  },
+  {
+    "case_id": "84",
+    "finding": "stability of the right effusion and unchanged state of the right basal chest tube",
+    "impression": "stable condition of the patient despite the presence of metastasis",
+    "certainty": false
+  },
+  {
+    "case_id": "85",
+    "finding": "multiple lung nodules",
+    "impression": "metastasis",
+    "certainty": false
+  },
+  {
+    "case_id": "85",
+    "finding": "abnormally increased density areas in RUL and RML",
+    "impression": "metastasis",
+    "certainty": false
+  },
+  {
+    "case_id": "86",
+    "finding": "right pleural effusion and consolidation in the right lower and possibly middle lobes",
+    "impression": "mass effect",
+    "certainty": false
+  },
+  {
+    "case_id": "86",
+    "finding": "findings located in the right lower lobe (RLL) and possibly the right middle lobe (RML)",
+    "impression": "consistent with identified mass leading to observed symptoms and radiographic abnormalities",
+    "certainty": false
+  },
+  {
+    "case_id": "87",
+    "finding": "calcified lymph nodes at the aortopulmonic window",
+    "impression": "prior granulomatous exposure",
+    "certainty": false
+  },
+  {
+    "case_id": "87",
+    "finding": "granuloma in the Left Upper Lobe (LUL) at coordinates {5, 5}",
+    "impression": "calcified lymph nodes",
+    "certainty": false
+  },
+  {
+    "case_id": "87",
+    "finding": "no evidence of active disease or acute process",
+    "impression": "stability of the patient's condition",
+    "certainty": false
+  },
+  {
+    "case_id": "88",
+    "finding": "pleural effusion and mass in the left upper lobe",
+    "impression": "consistent with metastasis",
+    "certainty": false
+  },
+  {
+    "case_id": "88",
+    "finding": "lack of significant change in the severity of the left pleural fluid",
+    "impression": "stability in the condition",
+    "certainty": false
+  },
+  {
+    "case_id": "89",
+    "finding": "left pleural effusion and prominent interstitial lung markings in the left lung",
+    "impression": "pleural effusion and metastasis",
+    "certainty": false
+  },
+  {
+    "case_id": "89",
+    "finding": "unchanged condition of the left-sided volume loss and the prominent interstitial lung markings",
+    "impression": "stable state without significant interval change",
+    "certainty": false
+  },
+  {
+    "case_id": "89",
+    "finding": "abnormally increased density area in the left lung",
+    "impression": "lymphangitic spread of metastasis",
+    "certainty": false
+  },
+  {
+    "case_id": "89",
+    "finding": "absence of significant changes in the right lung and the inability to accurately assess the heart and mediastinum",
+    "impression": "stable findings",
+    "certainty": false
+  },
+  {
+    "case_id": "90",
+    "finding": "well-inflated and clear lungs",
+    "impression": "no atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "90",
+    "finding": "absence of focal consolidation, nodule, effusion, or pneumothorax",
+    "impression": "no atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "90",
+    "finding": "normal cardiac and mediastinal contours",
+    "impression": "no deviation or abnormality that could be associated with atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "90",
+    "finding": "lack of free peritoneal air",
+    "impression": "no subcutaneous emphysema or hiatus hernia",
+    "certainty": false
+  },
+  {
+    "case_id": "91",
+    "finding": "very large cardiac silhouette",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "91",
+    "finding": "23 mm wide nodular opacity and small lung nodules",
+    "impression": "presence of nodules",
+    "certainty": false
+  },
+  {
+    "case_id": "91",
+    "finding": "dominant left atrial enlargement and large hila",
+    "impression": "underlying mitral valve pathology",
+    "certainty": false
+  },
+  {
+    "case_id": "92",
+    "finding": "interval decrease in pleural effusion",
+    "impression": "slightly improved aeration of the left lung",
+    "certainty": false
+  },
+  {
+    "case_id": "92",
+    "finding": "mediastinum remains unchanged",
+    "impression": "no significant shift or additional pressure from the left pleural area",
+    "certainty": false
+  },
+  {
+    "case_id": "92",
+    "finding": "massive lymphadenopathy",
+    "impression": "mass in the left hilum",
+    "certainty": false
+  },
+  {
+    "case_id": "93",
+    "finding": "lymphadenopathy in the Right Hilum and Left Hilum",
+    "impression": "bilateral hilar fullness",
+    "certainty": false
+  },
+  {
+    "case_id": "93",
+    "finding": "absence of pleural effusion, focal consolidation, or pneumothorax",
+    "impression": "bilateral hilar fullness more likely related to lymphadenopathy rather than vascular anomalies",
+    "certainty": false
+  },
+  {
+    "case_id": "94",
+    "finding": "lymphadenopathy located at the left hilum (positions 6, 7)",
+    "impression": "unusual appearance noted",
+    "certainty": false
+  },
+  {
+    "case_id": "95",
+    "finding": "patchy areas of opacification in the bases, specifically in the Right Lower Lobe (RLL) and Left Lower Lobe (LLL)",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "95",
+    "finding": "blunting of the costophrenic angles is no longer seen",
+    "impression": "clearing of small effusions or change in patient position",
+    "certainty": false
+  },
+  {
+    "case_id": "96",
+    "finding": "extensive bilateral opacifications and low lung volumes",
+    "impression": "multifocal pneumonia and pulmonary edema",
+    "certainty": false
+  },
+  {
+    "case_id": "96",
+    "finding": "prominence of mediastinal and hilar regions",
+    "impression": "possible lymphadenopathy",
+    "certainty": false
+  },
+  {
+    "case_id": "96",
+    "finding": "extensive bilateral opacifications and low lung volumes and prominence of mediastinal and hilar regions",
+    "impression": "IPF flare",
+    "certainty": false
+  },
+  {
+    "case_id": "97",
+    "finding": "moderate to large loculated right pleural effusion and extensive consolidation in the right mid and lower lungs",
+    "impression": "pleural effusion and pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "97",
+    "finding": "increased size of the right pleural effusion and the presence of consolidation and atelectasis",
+    "impression": "increased oxygen requirement",
+    "certainty": false
+  },
+  {
+    "case_id": "97",
+    "finding": "small left pleural effusion and minimal patchy opacities in the left lower lobe",
+    "impression": "pleural effusion and pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "98",
+    "finding": "air accumulated in the pleural space",
+    "impression": "pneumothorax with partial lung collapse",
+    "certainty": false
+  },
+  {
+    "case_id": "98",
+    "finding": "pneumothorax in the left upper lobe approximately 7.4 cm in greatest dimension",
+    "impression": "significant pneumothorax",
+    "certainty": false
+  },
+  {
+    "case_id": "98",
+    "finding": "mild rightward mediastinal shift on expiratory view",
+    "impression": "moderate to large pneumothorax",
+    "certainty": false
+  },
+  {
+    "case_id": "98",
+    "finding": "absence of mediastinal shift on inspiratory view",
+    "impression": "dynamic pneumothorax that fluctuates with respiratory cycles",
+    "certainty": false
+  },
+  {
+    "case_id": "99",
+    "finding": "cardiomegaly",
+    "impression": "heart is moderately enlarged",
+    "certainty": false
+  },
+  {
+    "case_id": "99",
+    "finding": "cardiothoracic ratio over 50",
+    "impression": "not in the normal range",
+    "certainty": false
+  },
+  {
+    "case_id": "99",
+    "finding": "enlargement",
+    "impression": "cardiomegaly in the Left Ventricle",
+    "certainty": false
+  },
+  {
+    "case_id": "100",
+    "finding": "pleural line seen below the inferior border of the posterior second rib",
+    "impression": "pneumomediastinum",
+    "certainty": false
+  },
+  {
+    "case_id": "100",
+    "finding": "pleural line seen below the inferior border of the posterior second rib",
+    "impression": "presence of air in the mediastinal space",
+    "certainty": false
+  },
+  {
+    "case_id": "100",
+    "finding": "air in the pleural space from recent double-lumen tube placement",
+    "impression": "small right apical pneumothorax",
+    "certainty": false
+  },
+  {
+    "case_id": "100",
+    "finding": "normal appearance of the heart size, mediastinal, and hilar contours",
+    "impression": "absence of significant mediastinal shift or large volume pneumothorax",
+    "certainty": false
+  },
+  {
+    "case_id": "101",
+    "finding": "increased density area observed when comparing the apical, upper, middle, and lower zones",
+    "impression": "pneumonia in the right lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "101",
+    "finding": "region between the 7th and 10th ribs",
+    "impression": "pneumonia in the right lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "102",
+    "finding": "cardiomegaly",
+    "impression": "heart size is enlarged",
+    "certainty": false
+  },
+  {
+    "case_id": "102",
+    "finding": "deviation from the normal cardiothoracic ratio",
+    "impression": "heart enlargement",
+    "certainty": false
+  },
+  {
+    "case_id": "102",
+    "finding": "absence of tracheal deviation, widened carina, or abnormal lung zones",
+    "impression": "isolated cardiomegaly without additional complications",
+    "certainty": false
+  },
+  {
+    "case_id": "103",
+    "finding": "mild enlargement of the cardiac silhouette",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "103",
+    "finding": "cardiothoracic ratio is over 50 and not in the normal range",
+    "impression": "cardiac enlargement",
+    "certainty": false
+  },
+  {
+    "case_id": "103",
+    "finding": "mediastinal and hilar contours being unremarkable",
+    "impression": "normal aortic knob diameter and pulmonary artery diameters",
+    "certainty": false
+  },
+  {
+    "case_id": "103",
+    "finding": "clear lungs without focal consolidation",
+    "impression": "both lungs are well expanded and similar in volume",
+    "certainty": false
+  },
+  {
+    "case_id": "104",
+    "finding": "cardiac silhouette at the top normal range and unchanged",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "105",
+    "finding": "abnormally increased density area at LLL",
+    "impression": "small granuloma",
+    "certainty": false
+  },
+  {
+    "case_id": "106",
+    "finding": "pneumonia identified in the left lower lobe and left upper lobe",
+    "impression": "persistent opacity in the lingula indicating pneumonia has not entirely resolved",
+    "certainty": false
+  },
+  {
+    "case_id": "107",
+    "finding": "hazy linear opacities",
+    "impression": "atelectasis in the left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "107",
+    "finding": "localized collapse or incomplete expansion of the lung tissue in the left lower lobe",
+    "impression": "atelectasis in sections 7 and 8 of the left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "108",
+    "finding": "calcified nodules at the right hilum",
+    "impression": "nodule",
+    "certainty": false
+  },
+  {
+    "case_id": "108",
+    "finding": "mild basilar atelectatic changes",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "109",
+    "finding": "post operative findings in the left upper lobe (LUL) at positions {4, 6}",
+    "impression": "extensive postoperative opacities observed in the periaortic and upper zone on the left",
+    "certainty": false
+  },
+  {
+    "case_id": "109",
+    "finding": "extensive postoperative opacities observed in the periaortic and upper zone on the left",
+    "impression": "consistency with previous surgery and the absence of acute abnormalities",
+    "certainty": false
+  },
+  {
+    "case_id": "110",
+    "finding": "enlargement of the heart chambers such as the Right Atrium, Left Atrium, Right Ventricle, and Left Ventricle",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "110",
+    "finding": "increased cardiothoracic ratio over 50",
+    "impression": "heart size exceeds normal limits",
+    "certainty": false
+  },
+  {
+    "case_id": "110",
+    "finding": "size and position of the heart and related structures such as the aortic arch and pulmonary trunk were found to be within normal ranges",
+    "impression": "diagnosis of cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "111",
+    "finding": "abnormal density areas at locations {7, 9} in the Left Lower Lobe",
+    "impression": "pneumonia with localized infection",
+    "certainty": false
+  },
+  {
+    "case_id": "112",
+    "finding": "emphysema and mass",
+    "impression": "subcutaneous air and pneumoperitoneum",
+    "certainty": false
+  },
+  {
+    "case_id": "113",
+    "finding": "large right basilar consolidation",
+    "impression": "pneumonia located in the right lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "113",
+    "finding": "patchy areas of left mid lung consolidation",
+    "impression": "pneumonia or pleural effusion in the left upper lobe and left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "113",
+    "finding": "blunting of the costophrenic angle",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "114",
+    "finding": "increased cardiothoracic ratio exceeding normal values",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "114",
+    "finding": "patchy opacity in the right mid lung",
+    "impression": "possible pneumonia at the RML",
+    "certainty": false
+  },
+  {
+    "case_id": "114",
+    "finding": "presence of chain sutures in this area",
+    "impression": "opacity is likely postoperative",
+    "certainty": false
+  },
+  {
+    "case_id": "114",
+    "finding": "lower lung volumes",
+    "impression": "slightly prominent vasculature",
+    "certainty": false
+  },
+  {
+    "case_id": "115",
+    "finding": "left loculated pleural effusion and small amount of right pleural effusion",
+    "impression": "abnormal accumulation of fluid in the pleural spaces",
+    "certainty": false
+  },
+  {
+    "case_id": "115",
+    "finding": "abnormal increased density area",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "116",
+    "finding": "abnormal increased density area at Left Lower Lobe at {9, 10}",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "117",
+    "finding": "asymmetry and increased density area observed in the lower zones",
+    "impression": "atelectasis in the left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "117",
+    "finding": "observed findings",
+    "impression": "pulmonary parenchymal reaction potentially related to atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "118",
+    "finding": "innumerable pulmonary nodules diffusely through bilateral lobes",
+    "impression": "metastasis",
+    "certainty": false
+  },
+  {
+    "case_id": "118",
+    "finding": "identified conditions in the right upper lobe and lower left lobe",
+    "impression": "metastatic nodules",
+    "certainty": false
+  },
+  {
+    "case_id": "118",
+    "finding": "absence of new large focal opacity and stability of nodules relative to previous study",
+    "impression": "supports the diagnosis",
+    "certainty": false
+  },
+  {
+    "case_id": "119",
+    "finding": "right hilar mass and multiple bilateral lung nodules",
+    "impression": "metastatic disease",
+    "certainty": false
+  },
+  {
+    "case_id": "119",
+    "finding": "RLL atelectasis",
+    "impression": "partial lung collapse in the right lower lobe caused by mass effect or obstruction from metastatic lesions",
+    "certainty": false
+  },
+  {
+    "case_id": "120",
+    "finding": "mass in the left infrahilar region, which appears larger than previously described",
+    "impression": "abnormal increase in density",
+    "certainty": false
+  },
+  {
+    "case_id": "120",
+    "finding": "volume loss and/or consolidation at the lingula",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "120",
+    "finding": "parenchymal opacity at the right lung base",
+    "impression": "atelectasis in the RLL",
+    "certainty": false
+  },
+  {
+    "case_id": "121",
+    "finding": "minimal atelectasis at the left base",
+    "impression": "partial collapse or incomplete inflation of the lung tissue in the left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "121",
+    "finding": "lack of significant infiltrates or effusions",
+    "impression": "isolated finding rather than widespread pathology",
+    "certainty": false
+  },
+  {
+    "case_id": "122",
+    "finding": "perihilar opacities in the Right Lower Lobe (RLL) and Left Lower Lobe (LLL)",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "122",
+    "finding": "location information {5, 8}",
+    "impression": "suspicion of pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "122",
+    "finding": "overall findings",
+    "impression": "possible pneumonia at the BLL",
+    "certainty": false
+  },
+  {
+    "case_id": "123",
+    "finding": "increased density area in the right middle and lower lobes",
+    "impression": "possible pneumonia at RML and RLL",
+    "certainty": false
+  },
+  {
+    "case_id": "123",
+    "finding": "right pleural thickening or fluid",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "123",
+    "finding": "blunting of the costophrenic angle",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "124",
+    "finding": "bibasilar atelectases",
+    "impression": "abnormal increase in lung density in the lower lobes",
+    "certainty": false
+  },
+  {
+    "case_id": "124",
+    "finding": "lack of tracheal deviation, normal tracheal diameter, and absence of foreign bodies",
+    "impression": "atelectasis is localized and not due to an obstructive cause",
+    "certainty": false
+  },
+  {
+    "case_id": "125",
+    "finding": "linear peripheral scar in the left apex with adjacent pleural thickening",
+    "impression": "old tuberculosis",
+    "certainty": false
+  },
+  {
+    "case_id": "126",
+    "finding": "pulmonary edema and pleural effusions",
+    "impression": "atelectasis due to compression of lung tissues, particularly in the left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "126",
+    "finding": "radiographic findings",
+    "impression": "atelectasis and pleural effusion as consequences of the initial pulmonary edema",
+    "certainty": false
+  },
+  {
+    "case_id": "126",
+    "finding": "interconnected conditions",
+    "impression": "asymmetric residual opacities in the bilateral perihilar region",
+    "certainty": false
+  },
+  {
+    "case_id": "127",
+    "finding": "increased peribronchovascular opacities and lung base opacities",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "127",
+    "finding": "abnormal increased density area observed in the upper, middle, and lower zones of the lungs",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "127",
+    "finding": "abnormal hilar angles exceeding 120 degrees and the non-inverted C-shape of both hila",
+    "impression": "possible mass in the hilum",
+    "certainty": false
+  },
+  {
+    "case_id": "128",
+    "finding": "pleural effusion",
+    "impression": "blunting of the costophrenic angle",
+    "certainty": false
+  },
+  {
+    "case_id": "128",
+    "finding": "increased density area in the mid and upper lung zones",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "129",
+    "finding": "mild cardiomegaly with cardiothoracic ratio exceeding 50%",
+    "impression": "enlargement of the heart",
+    "certainty": false
+  },
+  {
+    "case_id": "129",
+    "finding": "increased heart size involving the Left Atrium, Right Atrium, Right Ventricle, and Left Ventricle",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "129",
+    "finding": "abnormal cardiothoracic ratio",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "130",
+    "finding": "pleural effusion in the right major fissure",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "130",
+    "finding": "streaky opacities projecting over the right hemidiaphragm",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "130",
+    "finding": "relative elevation of the right hemidiaphragm",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "131",
+    "finding": "area of increased density in the lung, specifically found in the right lower lobe",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "131",
+    "finding": "abnormal density noted in middle and lower zones of the lung",
+    "impression": "possible focal pneumonia at RLL",
+    "certainty": false
+  },
+  {
+    "case_id": "131",
+    "finding": "clear lungs and normal heart and mediastinal contours with localized increased density",
+    "impression": "focal pneumonia rather than a diffuse process",
+    "certainty": false
+  },
+  {
+    "case_id": "132",
+    "finding": "hyperinflated lungs",
+    "impression": "chronic obstructive pulmonary disease (COPD)",
+    "certainty": false
+  },
+  {
+    "case_id": "132",
+    "finding": "absence of pleural effusion, pneumothorax, and an unremarkable cardiomediastinal silhouette",
+    "impression": "no acute cardiopulmonary process",
+    "certainty": false
+  },
+  {
+    "case_id": "133",
+    "finding": "calcific density",
+    "impression": "granuloma",
+    "certainty": false
+  },
+  {
+    "case_id": "133",
+    "finding": "identification of the granuloma",
+    "impression": "past infection or inflammatory process that has since calcified",
+    "certainty": false
+  },
+  {
+    "case_id": "133",
+    "finding": "retrocardiac density with air within seen on the frontal and lateral views",
+    "impression": "hiatal hernia",
+    "certainty": false
+  },
+  {
+    "case_id": "133",
+    "finding": "presence of air within the retrocardiac density",
+    "impression": "hiatal hernia",
+    "certainty": false
+  },
+  {
+    "case_id": "134",
+    "finding": "no abnormal narrowing or obstruction of the airways, no tracheal deviation, and no inhaled foreign bodies",
+    "impression": "absence of acute complications",
+    "certainty": false
+  },
+  {
+    "case_id": "134",
+    "finding": "mediastinal and hilar contours are within normal limits",
+    "impression": "no excessive widening or abnormal hilar angles",
+    "certainty": false
+  },
+  {
+    "case_id": "134",
+    "finding": "absence of pleural effusion or pneumothorax",
+    "impression": "no immediate complications related to chronic obstructive pulmonary disease",
+    "certainty": false
+  },
+  {
+    "case_id": "135",
+    "finding": "complete collapse of the right lower lobe",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "135",
+    "finding": "marked elevation of the right hemidiaphragm",
+    "impression": "result from recent surgical intervention and presence of surgical drains in the right upper abdomen",
+    "certainty": false
+  },
+  {
+    "case_id": "136",
+    "finding": "increased diameter of both the right and left pulmonary arteries exceeding 20mm",
+    "impression": "pulmonary hypertension",
+    "certainty": false
+  },
+  {
+    "case_id": "137",
+    "finding": "bilateral pleural effusion",
+    "impression": "blunting of the costophrenic angle",
+    "certainty": false
+  },
+  {
+    "case_id": "137",
+    "finding": "RLL atelectasis",
+    "impression": "obstruction or compression of the airways",
+    "certainty": false
+  },
+  {
+    "case_id": "137",
+    "finding": "mild edema in the left lung",
+    "impression": "abnormally high density areas",
+    "certainty": false
+  },
+  {
+    "case_id": "138",
+    "finding": "cardiothoracic ratio over 50",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "138",
+    "finding": "cardiomegaly",
+    "impression": "enlargement affecting both the right atrium, left atrium, right ventricle, and left ventricle",
+    "certainty": false
+  },
+  {
+    "case_id": "139",
+    "finding": "elevation of the left hemidiaphragm",
+    "impression": "minimal atelectasis at the left lung basis in the Left Lower Lobe (LLL), specifically in segments 5 and 6",
+    "certainty": false
+  },
+  {
+    "case_id": "140",
+    "finding": "increased cardiothoracic ratio",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "140",
+    "finding": "small bilateral pleural effusions",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "140",
+    "finding": "right perihilar region's opacity with abnormally increased density area",
+    "impression": "possible mass",
+    "certainty": false
+  },
+  {
+    "case_id": "141",
+    "finding": "cardiothoracic ratio exceeds normal limits",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "141",
+    "finding": "abnormally increased density area",
+    "impression": "RLL atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "141",
+    "finding": "enlarged cardiac silhouette",
+    "impression": "atelectasis in the RLL",
+    "certainty": false
+  },
+  {
+    "case_id": "142",
+    "finding": "granuloma at the Left Upper Lobe (LUL)",
+    "impression": "localized area of inflammation in the lung tissue",
+    "certainty": false
+  },
+  {
+    "case_id": "143",
+    "finding": "increased density area in the right basilar region",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "143",
+    "finding": "trace free air below the right hemidiaphragm",
+    "impression": "recent surgical intervention",
+    "certainty": false
+  },
+  {
+    "case_id": "143",
+    "finding": "increased density at left perihilar",
+    "impression": "mass",
+    "certainty": false
+  },
+  {
+    "case_id": "144",
+    "finding": "cardiothoracic ratio over 50%",
+    "impression": "moderate cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "144",
+    "finding": "abnormally increased density area in the left lower lobe",
+    "impression": "possible LLL atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "145",
+    "finding": "unchanged mild to moderate pulmonary edema in both lungs",
+    "impression": "stable but persistent underlying causes such as cardiomegaly and parenchymal opacities",
+    "certainty": false
+  },
+  {
+    "case_id": "145",
+    "finding": "metastatic breast cancer",
+    "impression": "pulmonary edema due to fluid retention and imbalance",
+    "certainty": false
+  },
+  {
+    "case_id": "146",
+    "finding": "moderate cardiomegaly",
+    "impression": "enlargement of the heart affecting the Right Atrium, Left Atrium, Right Ventricle, and Left Ventricle",
+    "certainty": false
+  },
+  {
+    "case_id": "146",
+    "finding": "cardiothoracic ratio over 50",
+    "impression": "abnormal cardiac size",
+    "certainty": false
+  },
+  {
+    "case_id": "147",
+    "finding": "substantial enlargement of the cardiac silhouette and diffuse opacifications throughout both lungs",
+    "impression": "possible pleural effusion or edema",
+    "certainty": false
+  },
+  {
+    "case_id": "147",
+    "finding": "costophrenic angle blunting",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "147",
+    "finding": "abnormally increased density area in the lung zones",
+    "impression": "edema",
+    "certainty": false
+  },
+  {
+    "case_id": "148",
+    "finding": "cardiomegaly in the left atrium, right atrium, right ventricle, and left ventricle",
+    "impression": "abnormal cardiac enlargement",
+    "certainty": false
+  },
+  {
+    "case_id": "148",
+    "finding": "cardiothoracic ratio exceeds 50",
+    "impression": "abnormal cardiac size",
+    "certainty": false
+  },
+  {
+    "case_id": "148",
+    "finding": "pulmonary vascular congestion",
+    "impression": "increased pulmonary pressure, potentially due to left heart failure, leading to fluid accumulation and edema",
+    "certainty": false
+  },
+  {
+    "case_id": "149",
+    "finding": "substantial right lower lobe atelectasis",
+    "impression": "failure in one lung being prominently larger than the other, leading to asymmetry in lung zones",
+    "certainty": false
+  },
+  {
+    "case_id": "149",
+    "finding": "absence of pulmonary edema or pneumothorax",
+    "impression": "normal lung vessel branching without extra lines or abnormal densities",
+    "certainty": false
+  },
+  {
+    "case_id": "149",
+    "finding": "postoperative cardiac silhouette remaining unchanged",
+    "impression": "cardiothoracic ratio is within the normal range and the aortic knob diameter does not exceed 3.5 cm",
+    "certainty": false
+  },
+  {
+    "case_id": "150",
+    "finding": "increased density areas within the lung fields",
+    "impression": "pneumonia in the left lower lobe and right lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "150",
+    "finding": "blunting of the costophrenic angle",
+    "impression": "small pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "150",
+    "finding": "presence of fluid in the pleural space",
+    "impression": "small pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "151",
+    "finding": "minimal elevation of the right hemidiaphragm",
+    "impression": "trace bilateral pleural effusions",
+    "certainty": false
+  },
+  {
+    "case_id": "151",
+    "finding": "abnormally increased density area in the lower lung zone",
+    "impression": "nodule in the LLL",
+    "certainty": false
+  },
+  {
+    "case_id": "152",
+    "finding": "bilateral pleural effusion noted in both left and right pleural regions",
+    "impression": "bilateral pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "152",
+    "finding": "mediastinal widening",
+    "impression": "mediastinal widening",
+    "certainty": false
+  },
+  {
+    "case_id": "152",
+    "finding": "blunting of the costophrenic angle",
+    "impression": "presence of pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "153",
+    "finding": "abnormally increased density area in the lungs",
+    "impression": "pulmonary edema",
+    "certainty": false
+  },
+  {
+    "case_id": "153",
+    "finding": "cardiothoracic ratio over 50",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "153",
+    "finding": "fluid accumulation in the lungs",
+    "impression": "compromised heart pumping efficiency",
+    "certainty": false
+  },
+  {
+    "case_id": "154",
+    "finding": "mild cardiomegaly and pulmonary edema",
+    "impression": "underlying cardiac conditions affecting heart size and lung fluid retention",
+    "certainty": false
+  },
+  {
+    "case_id": "154",
+    "finding": "increased cardiothoracic ratio and abnormally increased density areas observed in the lungs",
+    "impression": "fluid accumulation due to heart inefficiency",
+    "certainty": false
+  },
+  {
+    "case_id": "154",
+    "finding": "heart's position and size assessments",
+    "impression": "mild cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "155",
+    "finding": "bilateral basal parenchymal opacities",
+    "impression": "pneumonia, particularly in the left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "155",
+    "finding": "opacities seen in the lateral radiograph",
+    "impression": "pneumonia in the right lower lobe and left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "156",
+    "finding": "atelectasis in the Left Lower Lobe (LLL) and Right Lower Lobe (RLL)",
+    "impression": "abnormally increased density areas",
+    "certainty": false
+  },
+  {
+    "case_id": "156",
+    "finding": "atelectasis in the bibasilar regions",
+    "impression": "increased density areas and potentially blunted costophrenic angles",
+    "certainty": false
+  },
+  {
+    "case_id": "157",
+    "finding": "costophrenic angle is blunting",
+    "impression": "presence of pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "158",
+    "finding": "absence of focal consolidation, pleural effusion, and pneumothorax, along with clear lung fields",
+    "impression": "no acute exacerbation of chronic obstructive pulmonary disease (COPD)",
+    "certainty": false
+  },
+  {
+    "case_id": "158",
+    "finding": "absence of focal consolidation, pleural effusion, and pneumothorax, along with clear lung fields",
+    "impression": "stable COPD without acute complications",
+    "certainty": false
+  },
+  {
+    "case_id": "159",
+    "finding": "abnormally increased density area in the upper zone",
+    "impression": "pneumonia in the right upper lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "159",
+    "finding": "stability of the heart size and absence of pleural effusion or pneumothorax",
+    "impression": "increased density is consistent with pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "160",
+    "finding": "moderate cardiomegaly",
+    "impression": "enlarged heart size",
+    "certainty": false
+  },
+  {
+    "case_id": "160",
+    "finding": "enlarged heart size",
+    "impression": "mild pulmonary edema",
+    "certainty": false
+  },
+  {
+    "case_id": "160",
+    "finding": "atelectasis at both lung bases",
+    "impression": "decreased lung volume and increased density areas in the lower zones",
+    "certainty": false
+  },
+  {
+    "case_id": "160",
+    "finding": "combination of cardiomegaly and atelectasis",
+    "impression": "compromised pulmonary function",
+    "certainty": false
+  },
+  {
+    "case_id": "161",
+    "finding": "areas of abnormal increased density on imaging",
+    "impression": "atelectasis in the left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "161",
+    "finding": "hyperinflated lungs",
+    "impression": "chronic obstructive pulmonary disease (COPD)",
+    "certainty": false
+  },
+  {
+    "case_id": "161",
+    "finding": "blunting of the posterior left costophrenic angle",
+    "impression": "chronic pleural effusion, pleural thickening, or atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "162",
+    "finding": "rounded opacity in the left mid lung zone and an increase in the chronic left pleural effusion",
+    "impression": "underlying pathology, such as malignancy",
+    "certainty": false
+  },
+  {
+    "case_id": "162",
+    "finding": "stable small right pleural effusion",
+    "impression": "bilateral pleural involvement, which may be related to a systemic process",
+    "certainty": false
+  },
+  {
+    "case_id": "162",
+    "finding": "cardiomediastinal silhouette remaining unchanged",
+    "impression": "cardiomegaly is not contributing significantly to the current findings",
+    "certainty": false
+  },
+  {
+    "case_id": "162",
+    "finding": "calcified hilar lymph nodes",
+    "impression": "chronic inflammatory process",
+    "certainty": false
+  },
+  {
+    "case_id": "163",
+    "finding": "increased cardiothoracic ratio",
+    "impression": "cardiomegaly with abnormal enlargement of heart chambers",
+    "certainty": false
+  },
+  {
+    "case_id": "163",
+    "finding": "abnormally increased density area at the left lower lobe",
+    "impression": "granuloma",
+    "certainty": false
+  },
+  {
+    "case_id": "163",
+    "finding": "cardiomegaly and granuloma",
+    "impression": "alteration in cardiac silhouette and presence of pleural fluid",
+    "certainty": false
+  },
+  {
+    "case_id": "164",
+    "finding": "cardiomegaly with potential involvement of the Right Atrium, Left Atrium, Right Ventricle, and Left Ventricle",
+    "impression": "vascular enlargement at the right hilus",
+    "certainty": false
+  },
+  {
+    "case_id": "164",
+    "finding": "cardiomegaly",
+    "impression": "low lung volumes",
+    "certainty": false
+  },
+  {
+    "case_id": "164",
+    "finding": "cardiothoracic ratio exceeding the normal range",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "165",
+    "finding": "Edema in the Left Lower Lobe (LLL) and Right Lower Lobe (RLL) with densities noted at locations 8 and 10",
+    "impression": "bilateral lower lobe edema",
+    "certainty": false
+  },
+  {
+    "case_id": "165",
+    "finding": "cardiothoracic ratio within normal limits",
+    "impression": "normal cardiac size",
+    "certainty": false
+  },
+  {
+    "case_id": "165",
+    "finding": "vessel tracing indicates no extraneous lines or abnormalities in the periphery",
+    "impression": "normal peripheral vasculature",
+    "certainty": false
+  },
+  {
+    "case_id": "166",
+    "finding": "cardiothoracic ratio is over 50 and not in the normal range",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "166",
+    "finding": "cardiomegaly",
+    "impression": "enlargement of the heart chambers, which includes the Right Atrium, Left Atrium, Right Ventricle, and Left Ventricle",
+    "certainty": false
+  },
+  {
+    "case_id": "167",
+    "finding": "left basilar atelectasis in the left lower lobe with abnormally increased density area",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "168",
+    "finding": "enlargement of the heart observed in the Right Atrium, Left Atrium, Right Ventricle, and Left Ventricle",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "168",
+    "finding": "cardiothoracic ratio is over 50",
+    "impression": "heart size is not within the normal range",
+    "certainty": false
+  },
+  {
+    "case_id": "169",
+    "finding": "cardiomegaly",
+    "impression": "enlargement of the heart",
+    "certainty": false
+  },
+  {
+    "case_id": "169",
+    "finding": "increase in the cardiothoracic ratio over 50",
+    "impression": "not within the normal range",
+    "certainty": false
+  },
+  {
+    "case_id": "170",
+    "finding": "bilateral pleural effusion and severe pulmonary fibrosis",
+    "impression": "significant underlying lung pathology",
+    "certainty": false
+  },
+  {
+    "case_id": "170",
+    "finding": "extensive bilateral pulmonary opacities",
+    "impression": "interstitial fibrosis and pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "170",
+    "finding": "pleural effusion and fibrosis",
+    "impression": "mild rightward mediastinal shift",
+    "certainty": false
+  },
+  {
+    "case_id": "170",
+    "finding": "pleural effusion and fibrosis in the upper and lower lobes",
+    "impression": "diagnosis confirmation",
+    "certainty": false
+  },
+  {
+    "case_id": "171",
+    "finding": "mild cardiomegaly with increased cardiothoracic ratio over 50%",
+    "impression": "enlargement of the heart involving Right Atrium, Left Atrium, Right Ventricle, and Left Ventricle",
+    "certainty": false
+  },
+  {
+    "case_id": "172",
+    "finding": "pulmonary edema in the left lower lung",
+    "impression": "increased lung density",
+    "certainty": false
+  },
+  {
+    "case_id": "172",
+    "finding": "improved aeration in the left lower lung following chest tube removal",
+    "impression": "positive response to intervention",
+    "certainty": false
+  },
+  {
+    "case_id": "172",
+    "finding": "stable cardiomediastinal contours and unchanged right lung",
+    "impression": "no significant shifts in overall thoracic structure",
+    "certainty": false
+  },
+  {
+    "case_id": "173",
+    "finding": "enlargement of the heart involving Right Atrium, Left Atrium, Right Ventricle, and Left Ventricle",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "173",
+    "finding": "cardiothoracic ratio over 50",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "174",
+    "finding": "small left pleural effusion in the left pleural space",
+    "impression": "might obscure an infectious process in this location",
+    "certainty": false
+  },
+  {
+    "case_id": "174",
+    "finding": "presence of pleural effusion",
+    "impression": "blunting of the costophrenic angle",
+    "certainty": false
+  },
+  {
+    "case_id": "174",
+    "finding": "atelectasis at RUL",
+    "impression": "focal area of abnormally increased density noted in the lung zones",
+    "certainty": false
+  },
+  {
+    "case_id": "175",
+    "finding": "mild areas of atelectasis at both lung bases",
+    "impression": "abnormally increased density area in the lung zones",
+    "certainty": false
+  },
+  {
+    "case_id": "175",
+    "finding": "cardiothoracic ratio is above 50%",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "175",
+    "finding": "absence of pneumothorax and pleural effusions",
+    "impression": "stability of the patient's thoracic structures",
+    "certainty": false
+  },
+  {
+    "case_id": "176",
+    "finding": "cardiomegaly",
+    "impression": "enlargement of the heart affecting multiple cardiac chambers",
+    "certainty": false
+  },
+  {
+    "case_id": "176",
+    "finding": "cardiothoracic ratio exceeds 50%",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "176",
+    "finding": "mild cardiomegaly and upper zone redistribution of the vasculature",
+    "impression": "mitral regurgitation",
+    "certainty": false
+  },
+  {
+    "case_id": "176",
+    "finding": "mitral regurgitation",
+    "impression": "increased volume and pressure in the left atrium and ventricle contributing to heart enlargement",
+    "certainty": false
+  },
+  {
+    "case_id": "177",
+    "finding": "mild cardiomegaly with cardiothoracic ratio over 50%",
+    "impression": "abnormal heart size with enlargement of right atrium, right ventricle, left atrium, and left ventricle",
+    "certainty": false
+  },
+  {
+    "case_id": "178",
+    "finding": "small pleural effusions",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "178",
+    "finding": "increased density area and lack of lung expansion symmetry",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "178",
+    "finding": "blunting of the costophrenic angle",
+    "impression": "pleural fluid",
+    "certainty": false
+  },
+  {
+    "case_id": "178",
+    "finding": "abnormalities in lung density and fluid accumulation",
+    "impression": "pleural effusion and atelectasis located in the Left Pleural and Left Lower Lobe regions",
+    "certainty": false
+  },
+  {
+    "case_id": "179",
+    "finding": "bibasilar opacities",
+    "impression": "pneumonia in the right lower lobe (RLL) and the left lower lobe (LLL)",
+    "certainty": false
+  },
+  {
+    "case_id": "179",
+    "finding": "density areas noted in the lower zones",
+    "impression": "pneumonia in the right lower lobe (RLL) and the left lower lobe (LLL)",
+    "certainty": false
+  },
+  {
+    "case_id": "180",
+    "finding": "cardiomegaly",
+    "impression": "enlarged heart",
+    "certainty": false
+  },
+  {
+    "case_id": "180",
+    "finding": "increased cardiac size in the regions of the Right Atrium, Left Atrium, Right Ventricle, and Left Ventricle",
+    "impression": "heart enlargement",
+    "certainty": false
+  },
+  {
+    "case_id": "180",
+    "finding": "cardiothoracic ratio exceeding 50",
+    "impression": "heart size beyond normal range",
+    "certainty": false
+  },
+  {
+    "case_id": "180",
+    "finding": "persistent pulmonary vascular congestion and small pleural effusions",
+    "impression": "heart's increased size impacting surrounding structures and vascular system",
+    "certainty": false
+  },
+  {
+    "case_id": "181",
+    "finding": "cardiomegaly",
+    "impression": "enlarged heart",
+    "certainty": false
+  },
+  {
+    "case_id": "181",
+    "finding": "cardiomediastinal silhouette being unchanged along with bronchovascular crowding and pulmonary vascular congestion",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "181",
+    "finding": "cardiomegaly is marked",
+    "impression": "cardiothoracic ratio is over 50 and not within the normal range",
+    "certainty": false
+  },
+  {
+    "case_id": "182",
+    "finding": "mild cardiomegaly",
+    "impression": "possible enlargement of the heart",
+    "certainty": false
+  },
+  {
+    "case_id": "182",
+    "finding": "cardiothoracic ratio is over 50 and not in the normal range",
+    "impression": "cardiac enlargement",
+    "certainty": false
+  },
+  {
+    "case_id": "183",
+    "finding": "small bilateral effusions",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "183",
+    "finding": "blunting of the costophrenic angle",
+    "impression": "pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "183",
+    "finding": "cardiothoracic ratio exceeding 50",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "184",
+    "finding": "cardiomegaly",
+    "impression": "enlargement of the heart involving the right atrium, left atrium, right ventricle, and left ventricle",
+    "certainty": false
+  },
+  {
+    "case_id": "184",
+    "finding": "increase in the cardiothoracic ratio over 50",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "184",
+    "finding": "cardiac borders are not clearly defined",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "184",
+    "finding": "unchanged heart size and mediastinum",
+    "impression": "no significant change in the cardiomegaly since the last examination",
+    "certainty": false
+  },
+  {
+    "case_id": "185",
+    "finding": "extensive atelectatic changes in the left mid and lower zones",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "185",
+    "finding": "abnormally increased density areas and asymmetry in lung zones",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "185",
+    "finding": "blunting of the costophrenic angles",
+    "impression": "bilateral pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "186",
+    "finding": "minimal atelectasis or fibrosis in the lingula",
+    "impression": "presence of either atelectasis or fibrosis",
+    "certainty": false
+  },
+  {
+    "case_id": "186",
+    "finding": "detection atelectasis in the RML",
+    "impression": "localized structural changes in the right middle lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "186",
+    "finding": "minimal changes in lung density and structure",
+    "impression": "presence of fibrosis or atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "187",
+    "finding": "atelectasis at the Left Lower Lobe (LLL)",
+    "impression": "possible complication from pleural drainage",
+    "certainty": false
+  },
+  {
+    "case_id": "187",
+    "finding": "subcutaneous emphysema observed in the right neck",
+    "impression": "air escaped from the lung into subcutaneous tissues",
+    "certainty": false
+  },
+  {
+    "case_id": "187",
+    "finding": "subcutaneous emphysema",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "188",
+    "finding": "cardiomegaly",
+    "impression": "enlarged heart",
+    "certainty": false
+  },
+  {
+    "case_id": "188",
+    "finding": "abnormal cardiothoracic ratio exceeding 50%",
+    "impression": "heart enlargement",
+    "certainty": false
+  },
+  {
+    "case_id": "188",
+    "finding": "dilated upper mediastinum widened by more than 8 cm",
+    "impression": "heart enlargement",
+    "certainty": false
+  },
+  {
+    "case_id": "188",
+    "finding": "retrocardiac opacities",
+    "impression": "related to cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "189",
+    "finding": "opacification of the right hemithorax and visualization of the right main bronchus following chest tube placement",
+    "impression": "atelectasis in the right lung",
+    "certainty": false
+  },
+  {
+    "case_id": "189",
+    "finding": "areas of decreased aeration in specific lobes (RUL, RML, RLL)",
+    "impression": "lung collapse",
+    "certainty": false
+  },
+  {
+    "case_id": "190",
+    "finding": "cardiomegaly",
+    "impression": "enlargement of the heart",
+    "certainty": false
+  },
+  {
+    "case_id": "190",
+    "finding": "increased heart size involving the Left Atrium, Right Atrium, Left Ventricle, and Right Ventricle",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "190",
+    "finding": "cardiothoracic ratio being over 50",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "190",
+    "finding": "cardiomegaly",
+    "impression": "potential underlying pathology",
+    "certainty": false
+  },
+  {
+    "case_id": "191",
+    "finding": "pulmonary edema in the right lower lobe and left lower lobe",
+    "impression": "pulmonary edema",
+    "certainty": false
+  },
+  {
+    "case_id": "191",
+    "finding": "area of abnormally increased density across the lung zones",
+    "impression": "pulmonary edema",
+    "certainty": false
+  },
+  {
+    "case_id": "191",
+    "finding": "improved lung volumes",
+    "impression": "positive pressure ventilator support effect",
+    "certainty": false
+  },
+  {
+    "case_id": "191",
+    "finding": "extensive bronchiectasis or bronchiolitis, more severe in the right lung",
+    "impression": "chronic underlying condition contributing to pulmonary edema",
+    "certainty": false
+  },
+  {
+    "case_id": "191",
+    "finding": "small pleural effusions",
+    "impression": "exacerbating pulmonary edema",
+    "certainty": false
+  },
+  {
+    "case_id": "192",
+    "finding": "enlarged heart size exceeding normal range",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "193",
+    "finding": "cardiothoracic ratio over 50",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "193",
+    "finding": "abnormally increased density area",
+    "impression": "nodule",
+    "certainty": false
+  },
+  {
+    "case_id": "193",
+    "finding": "findings in the right lower lobe and atrium",
+    "impression": "need for further investigation to rule out aortic dissection or mediastinal adenopathy",
+    "certainty": false
+  },
+  {
+    "case_id": "194",
+    "finding": "atelectasis at the Left Lower Lobe (LLL) at positions {9, 10}",
+    "impression": "potential obstruction or collapse in these lung areas",
+    "certainty": false
+  },
+  {
+    "case_id": "194",
+    "finding": "vague densities at the lung bases",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "195",
+    "finding": "atelectasis at BLL",
+    "impression": "collapse or incomplete expansion of the lung tissue in the left lower lobe",
+    "certainty": false
+  },
+  {
+    "case_id": "195",
+    "finding": "one lung is not prominently larger than the other and there is an abnormally increased density area",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "195",
+    "finding": "lung vessels branch out progressively and uniformly, and there are no extra lines in the periphery that are not blood vessels",
+    "impression": "atelectasis might be due to localized factors such as a blockage or reduced ventilation in the affected area",
+    "certainty": false
+  },
+  {
+    "case_id": "196",
+    "finding": "abnormal increase in lung density in left upper lobe, right upper lobe, right lower lobe, right middle lobe, and left lower lobe",
+    "impression": "pneumonia in both lungs",
+    "certainty": false
+  },
+  {
+    "case_id": "196",
+    "finding": "density changes in specific lung zones",
+    "impression": "validates pneumonia location",
+    "certainty": false
+  },
+  {
+    "case_id": "196",
+    "finding": "generalized infiltrative pulmonary abnormality",
+    "impression": "pneumonia distribution",
+    "certainty": false
+  },
+  {
+    "case_id": "196",
+    "finding": "heterogeneous opacification",
+    "impression": "pneumonia presence in multiple lobes",
+    "certainty": false
+  },
+  {
+    "case_id": "197",
+    "finding": "pneumonia identified in both lungs",
+    "impression": "ongoing infection that contributes to the extensive bilateral parenchymal opacities",
+    "certainty": false
+  },
+  {
+    "case_id": "197",
+    "finding": "minimal pleural effusions observed in the costophrenic sinuses",
+    "impression": "result of the inflammatory response associated with pneumonia leading to fluid accumulation in the pleural space",
+    "certainty": false
+  },
+  {
+    "case_id": "197",
+    "finding": "costophrenic angle blunting",
+    "impression": "presence of pleural effusion",
+    "certainty": false
+  },
+  {
+    "case_id": "198",
+    "finding": "increased opacification bilaterally and probable bilateral pleural effusions, left more than right",
+    "impression": "pleural effusion and pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "198",
+    "finding": "abnormal increased density areas in the lung zones and the blunted costophrenic angle",
+    "impression": "pleural effusion and pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "199",
+    "finding": "opacification within the left lower lobe and at the right lung base with asymmetrical zones and abnormal density increase",
+    "impression": "pneumonia",
+    "certainty": false
+  },
+  {
+    "case_id": "199",
+    "finding": "increased cardiothoracic ratio",
+    "impression": "cardiomegaly",
+    "certainty": false
+  },
+  {
+    "case_id": "200",
+    "finding": "minimal linear opacities within the lung bases",
+    "impression": "subsegmental atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "200",
+    "finding": "increased density area in the lung zones",
+    "impression": "atelectasis",
+    "certainty": false
+  },
+  {
+    "case_id": "200",
+    "finding": "opacities in the right lower lobe",
+    "impression": "atelectasis in regions 9 and 10 of the lung",
+    "certainty": false
+  }
+]

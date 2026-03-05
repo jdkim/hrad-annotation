@@ -64,7 +64,7 @@ export RAILS_ENV=production
 bundle install
 rails db:migrate
 rails cases:import
-rails cases:seed_annotations
+rails cases:load_annotations
 rails assets:precompile
 rails tailwindcss:build
 ```
@@ -148,4 +148,5 @@ Place case folders in the `data/` directory. Each folder should be named `case_<
 | Task | Description |
 |------|-------------|
 | `rails cases:import` | Import cases from `data/` directory |
-| `rails cases:seed_annotations` | Extract finding/impression pairs from causal exploration text via Claude API and create initial annotations |
+| `rails cases:load_annotations` | Load initial annotations from `db/initial_annotations.json` |
+| `rails cases:seed_annotations` | Re-generate initial annotations via Claude API (requires `ANTHROPIC_API_KEY`) |

@@ -113,6 +113,39 @@ namespace :cases do
 
     puts "Done. Created #{count} annotations, skipped #{skipped} cases."
   end
+
+  desc "Load initial annotations from db/initial_annotations.json (no API calls)"
+  task load_annotations: :environment do
+    json_path = Rails.root.join("db", "initial_annotations.json")
+    unless File.exist?(json_path)
+      puts "Error: #{json_path} not found."
+      exit 1
+    end
+
+    user = User.initial_annotator
+    data = JSON.parse(File.read(json_path))
+    count = 0
+    skipped = 0
+
+    data.each do |entry|
+      medical_case = MedicalCase.find_by(case_id: entry["case_id"])
+      unless medical_case
+        puts "  Case #{entry['case_id']}: not found, skipping."
+        skipped += 1
+        next
+      end
+
+      medical_case.structured_causal_explanations.create!(
+        user: user,
+        finding: entry["finding"],
+        impression: entry["impression"],
+        certainty: entry["certainty"] || false
+      )
+      count += 1
+    end
+
+    puts "Loaded #{count} initial annotations, skipped #{skipped}."
+  end
 end
 
 def extract_finding_impression_pairs(client, causal_text)
